@@ -1,0 +1,12 @@
+{
+  "name": "ja-tools",
+  "owner": { "name": "Jeffery Asia 创新研发部" },
+  "plugins": [
+    {
+      "name": "ja-ae",
+      "source": "./plugins/ja-ae",
+      "description": "After Effects 通用操作层：让 Claude 直接操控你电脑上正在运行的 AE（2022 及以上，Windows）。只提供能力，不含模板或固定流程。",
+      "version": "0.2.0"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ja-ae",
+  "version": "0.2.0",
+  "description": "After Effects 通用操作层：让 Claude 直接操控你电脑上正在运行的 AE（2022 及以上，Windows）。只提供能力，不含模板或固定流程；每一步都可在 AE 里撤销，绝不自动保存。",
+  "author": { "name": "Jeffery Asia 创新研发部" },
+  "keywords": ["after-effects", "ae", "motion-graphics", "extendscript"],
+  "mcpServers": {
+    "ja-ae": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/index.js"]
+    }
+  }
+}
