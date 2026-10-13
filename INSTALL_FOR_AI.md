@@ -101,6 +101,7 @@ node "$env:USERPROFILE\.ja-ae-mcp\scripts\selftest.js"
   - 「给当前合成的标题做一个弹性出场」
   - 「把这个工程里所有文字的字体换成某某字体」
 - 每次改动都能在 AE 里用 Ctrl+Z 撤销，ja-ae 不会自动保存工程。
+- ja-ae 自带一份第三方插件的测试名单（1332 个效果）。已知会让 AE 崩溃、弹窗或加不上的效果会被自动拒绝，带水印的会提醒。名单是在另一台电脑上测出来的，你的 AE 版本或插件和那台电脑不同时，它只是提示，所以用第三方效果做交付前要先出一帧检查。可以问：「我电脑上哪些插件有已知问题？」
 
 ## 常见问题
 
@@ -109,6 +110,7 @@ node "$env:USERPROFILE\.ja-ae-mcp\scripts\selftest.js"
 | `AE_NOT_RUNNING` | 请用户打开 AE |
 | `AE_TIMEOUT` | AE 里有弹窗没关、AE 正在渲染，或者脚本权限没勾 |
 | 自检里 `ae_render` 失败，而 AE 是 2022 版 | AE 2022 的渲染队列没有 H.264，属正常。可以改用 `use_ame: true` 交给 Media Encoder 渲染 |
+| `FX_KNOWN_ISSUE` | 这个效果在测试里有已知问题（崩溃、弹窗、加不上）。换一个效果；确实要试时先请用户保存工程，再带 `force:true` |
 | 字体相关失败，而 AE 是 2022 版 | AE 2022 没有字体接口，ja-ae 会改为扫描系统字体文件；Adobe Fonts 激活的字体列不出来 |
 
 ## 卸载与更新

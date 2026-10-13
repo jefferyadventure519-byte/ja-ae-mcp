@@ -69,10 +69,13 @@ async function expectOk(tool, label, args, assert) {
   const st = await expectOk("ae_status", "AE 状态", {}, d => d.aeRunning === true || "AE 没有打开");
   if (st.isError || !st.data.aeRunning) return finish(report, "AE 没有打开（或无法通信）。请先打开 After Effects 再运行自检。" + (st.isError ? " 详情：" + errText(st) : ""));
   report.ae = { version: st.data.ae.version, language: st.data.ae.language, capabilities: st.data.ae.capabilities };
+  record("ae_status", "第三方插件测试名单已加载", !!(st.data.fxTests && st.data.fxTests.listed > 0), st.data.fxTests ? st.data.fxTests.listed + " 个效果，测试环境 " + st.data.fxTests.testedOn : "没有 fxTests");
   if (st.data.ae.project.dirty) return finish(report, "AE 当前工程有未保存的改动（" + (st.data.ae.project.file || "未命名工程") + "）。为了不丢你的工作，自检已停止：请先在 AE 里保存（Ctrl+S）或关闭该工程，再运行一次。");
 
   // 2 发现
   await expectOk("ae_discover", "效果列表（按 matchName 搜）", { what: "effects", query: "ADBE Gaussian Blur 2", limit: 3 }, d => d.total >= 1);
+  await expectOk("ae_discover", "效果列表带测试结论说明", { what: "effects", limit: 5 }, d => !!(d.fxTests && d.fxTests.testedOn) || "返回里没有 fxTests");
+  await expectOk("ae_discover", "插件使用说明", { what: "plugin_guide" }, d => (d.guide || "").length > 500 || "说明内容为空");
   await expectOk("ae_discover", "效果分类", { what: "categories" }, d => d.categories.length > 3);
   const fontsR = await expectOk("ae_discover", "字体（AE 2024+ 走接口，2022 扫字体文件）", { what: "fonts", query: "arial", limit: 20 }, d => d.returned >= 1);
   const presetsR = await expectOk("ae_discover", "动画预设", { what: "presets", limit: 400 }, d => d.total >= 0);
@@ -96,6 +99,12 @@ async function expectOk(tool, label, args, assert) {
   await expectOk("ae_set", "色块缩放关键帧（缓动）", { comp: COMP, layer: "Bar", changes: [{ property: "Scale", keyframes: [{ time: 0.3, value: [0, 100], ease_out: 15 }, { time: 1.1, value: [100, 100], ease_in: 88 }] }] }, d => d.changed[0].numKeys === 2);
   await expectOk("ae_set", "标题位移关键帧 + 旋转表达式", { comp: COMP, layer: "Title", changes: [{ property: "Position", keyframes: [{ time: 0.2, value: [640, 440], ease_out: 15 }, { time: 1.0, value: [640, 380], ease_in: 88 }], straight_motion: true }, { property: "Rotation", expression: "Math.sin(time*3)*2" }] }, d => d.changed.length === 2 && !d.changed[1].expressionError);
   await expectOk("ae_apply", "效果：高斯模糊（模糊度带关键帧）", { comp: COMP, layer: "Title", effect: "ADBE Gaussian Blur 2", params: { "ADBE Gaussian Blur 2-0001": { keyframes: [{ time: 0.2, value: 24 }, { time: 1.0, value: 0, ease_in: 80 }] } } }, d => d.applied.length === 1);
+  // 已知问题拦截：只挑「加不上」这一类来验证（就算没拦住也只是报错，不会弄崩 AE）；本机没有这类效果或 AE 版本与测试不同就跳过
+  const known = await call("ae_discover", { what: "effects", test: "noadd", limit: 1 });
+  if (!known.isError && known.data.returned >= 1 && known.data.fxTests.sameAEVersion) {
+    const gate = await call("ae_apply", { comp: COMP, layer: "Ctrl", effect: known.data.effects[0].matchName });
+    record("ae_apply", "防护：拒绝已知有问题的效果", gate.isError && /FX_KNOWN_ISSUE/.test(errText(gate)), gate.isError ? errText(gate).slice(0, 120) : "没有拦住 " + known.data.effects[0].matchName);
+  } else record("ae_apply", "防护：拒绝已知有问题的效果", true, "本机没有可用来验证的效果（或 AE 版本与测试不同），跳过");
   // 预设：在已安装的预设里试几个，能套上一个就算通过（预设名随 AE 语言变化）
   const presets = ((presetsR.data && presetsR.data.files) || []).filter(f => /\.ffx$/i.test(f));
   if (presets.length) {

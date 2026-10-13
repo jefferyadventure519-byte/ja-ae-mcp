@@ -553,8 +553,8 @@ OPS.find = function (a) {
 };
 
 OPS.check = function (a) {
-    var p = app.project, r = { missingFootage: [], missingEffects: [], expressionErrors: [], fontsUsed: [], unusedFootage: [], emptyComps: [], queuedRenders: 0 };
-    var installed = {}; try { for (var e = 0; e < app.effects.length; e++) installed[app.effects[e].matchName] = true; } catch (eE) {}
+    var p = app.project, r = { missingFootage: [], missingEffects: [], effectsUsed: [], expressionErrors: [], fontsUsed: [], unusedFootage: [], emptyComps: [], queuedRenders: 0 };
+    var used = {}, installed = {}; try { var allFx = app.effects; for (var e = 0; e < allFx.length; e++) installed[allFx[e].matchName] = true; } catch (eE) {}
     var fonts = {};
     function scan(g, c, L, depth) {
         if (depth > 12) return;
@@ -576,7 +576,15 @@ OPS.check = function (a) {
         if (it.numLayers === 0) r.emptyComps.push({ id: it.id, name: it.name });
         for (var j = 1; j <= it.numLayers; j++) {
             var L = it.layer(j);
-            try { var fx = L.property("ADBE Effect Parade"); for (var k = 1; k <= fx.numProperties; k++) if (!installed[fx.property(k).matchName]) r.missingEffects.push({ comp: it.name, layer: L.index, layerName: L.name, effect: fx.property(k).name, matchName: fx.property(k).matchName }); } catch (e4) {}
+            try {
+                var fx = L.property("ADBE Effect Parade");
+                for (var k = 1; k <= fx.numProperties; k++) {
+                    var fxk = fx.property(k), fm = fxk.matchName;
+                    if (!installed[fm]) r.missingEffects.push({ comp: it.name, layer: L.index, layerName: L.name, effect: fxk.name, matchName: fm });
+                    if (!used.hasOwnProperty(fm)) { used[fm] = { matchName: fm, name: fxk.name, count: 0, first: { comp: it.name, layer: L.index, layerName: L.name } }; r.effectsUsed.push(used[fm]); }
+                    used[fm].count++;
+                }
+            } catch (e4) {}
             if (L instanceof TextLayer) { try { var td = L.property("ADBE Text Properties").property("ADBE Text Document").value; fonts[td.font] = (fonts[td.font] || 0) + 1; } catch (e5) {} }
             scan(L, it, L, 0);
         }
@@ -593,18 +601,20 @@ OPS.check = function (a) {
 
 OPS.discover = function (a) {
     var what = JA.lower(a.what || "effects"), qy = JA.lower(a.query || ""), lim = a.limit || 300, out = [], i;
+    // app.effects 每读一次 AE 都会重建整张效果表：只读一次（装了大量插件时，放在循环里读一次调用要 100 秒）
+    var fxs = (what === "effects" || what === "categories") ? app.effects : null;
     if (what === "effects") {
-        for (i = 0; i < app.effects.length; i++) {
-            var ef = app.effects[i];
+        for (i = 0; i < fxs.length; i++) {
+            var ef = fxs[i];
             var hay = JA.lower(ef.displayName + " " + ef.matchName + " " + ef.category);
             if (qy && hay.indexOf(qy) < 0) continue;
             if (a.category && JA.lower(ef.category) !== JA.lower(a.category)) continue;
             out.push({ name: ef.displayName, matchName: ef.matchName, category: ef.category });
         }
         var total = out.length; if (out.length > lim) out = out.slice(0, lim);
-        return { what: "effects", total: total, returned: out.length, effects: out };
+        return { what: "effects", ae: app.version, total: total, returned: out.length, effects: out };
     }
-    if (what === "categories") { var cats = {}; for (i = 0; i < app.effects.length; i++) cats[app.effects[i].category] = (cats[app.effects[i].category] || 0) + 1; var cl = []; for (var c in cats) if (cats.hasOwnProperty(c)) cl.push({ category: c, count: cats[c] }); return { what: "categories", categories: cl }; }
+    if (what === "categories") { var cats = {}; for (i = 0; i < fxs.length; i++) cats[fxs[i].category] = (cats[fxs[i].category] || 0) + 1; var cl = []; for (var c in cats) if (cats.hasOwnProperty(c)) cl.push({ category: c, count: cats[c] }); return { what: "categories", categories: cl }; }
     if (what === "fonts") {
         var hasApi = false; try { hasApi = !!app.fonts && !!app.fonts.allFonts; } catch (e) {}
         if (!hasApi) return { what: "fonts", apiAvailable: false };
@@ -734,9 +744,17 @@ OPS.apply = function (a) {
     if (a.effect) {
         mn = a.effect;
         var found = false;
-        for (var e = 0; e < app.effects.length; e++) if (app.effects[e].matchName === a.effect) { found = true; break; }
-        if (!found) for (var e2 = 0; e2 < app.effects.length; e2++) if (JA.lower(app.effects[e2].displayName) === JA.lower(a.effect)) { mn = app.effects[e2].matchName; found = true; break; }
+        var fxs = app.effects;   // 只读一次，见 OPS.discover
+        for (var e = 0; e < fxs.length; e++) if (fxs[e].matchName === a.effect) { found = true; break; }
+        if (!found) for (var e2 = 0; e2 < fxs.length; e2++) if (JA.lower(fxs[e2].displayName) === JA.lower(a.effect)) { mn = fxs[e2].matchName; found = true; break; }
         if (!found) throw new Error("effect not installed: " + a.effect + " (use ae_discover what:'effects' to search)");
+        // 已知问题名单（服务端传入）：加上即崩溃、弹窗这类任何版本都先拦；「加不上」只在和测试相同的 AE 大版本上拦
+        if (a.__fx && !a.force) {
+            var gc = null;
+            if (a.__fx.hard.hasOwnProperty(mn)) gc = a.__fx.hard[mn];
+            else if (a.__fx.soft.hasOwnProperty(mn) && parseInt(app.version, 10) === a.__fx.ae) gc = a.__fx.soft[mn];
+            if (gc) throw new Error("FX_KNOWN_ISSUE|" + mn + "|" + gc + "|" + app.version);
+        }
     }
     for (var i = 0; i < layers.length; i++) {
         var L = layers[i];
@@ -764,7 +782,9 @@ OPS.apply = function (a) {
             out.push({ layer: L.index, layerName: L.name, preset: pf.fsName, effectsNow: JA.layerSummary(L, false).effects });
         }
     }
-    return { comp: comp.name, applied: out };
+    var ret = { comp: comp.name, applied: out };
+    if (mn) { ret.fx = mn; ret.ae = app.version; }
+    return ret;
 };
 
 OPS.run = function (a) {

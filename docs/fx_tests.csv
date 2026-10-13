@@ -1,0 +1,1333 @@
+﻿分类,效果名（测试机上的显示名）,matchName,插件版本,结论,结论代码,说明,脚本可改参数数
+AESweets,Glitch 7in1,AESweetsGlitch7in1,1.0.3x1,可用,ok,,148
+AndrewYY,YY_ShockRing,YY_ShockRing/1/AndrewY_678FCDA,2.1,可用,ok,,10
+AndrewYY,YY_Voronoi,YY_Voronoi/1/AndrewYY'_9596FD6,2.1,可用,ok,,16
+Animatable,Bendio,bendio_001,1.0.1x1,可用,ok,,18
+BCC 3D对象,BCC 层变形器,ScriptLD,7.0,可用,ok,,287
+BCC 3D对象,BCC 挤压EPS,ScriptEP,7.0,要先指定输入,input,要先选外部文件,248
+BCC 3D对象,BCC 挤压文本,ScriptET,7.0,可用,ok,,275
+BCC 3D对象,BCC 挤压样条线,ScriptSP,7.0,可用,ok,,257
+BCC 3D对象,BCC 标题工作室,BCCTS,7.0,可用,ok,,20
+BCC 3D对象,BCC 键入文本,ScriptTO,7.0,可用,ok,,211
+BCC VR,BCC VR 插入,BCC VR Insert,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,32
+BCC VR,BCC VR 模糊,BCC VR Blur,7.0,可用,ok,,9
+BCC VR,BCC VR 重新定位,BCC VR Reorient,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,17
+BCC VR,BCC VR 锐化,BCC VR Sharpen,7.0,可用,ok,,18
+BCC VR,BCC VR 闪烁修复器,BCC VR Flicker Fixer,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,26
+BCC 光学扩散,BCC+丝绸,BCC_SILK,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,166
+BCC 光学扩散,BCC+中心聚光,BCC_CENTERSPOT,1.0,可用,ok,,165
+BCC 光学扩散,BCC+分散场,BCC_SPLITFIELD,1.0,可用,ok,,153
+BCC 光学扩散,BCC+双重雾,BCC_DOUBLEFOG,1.0,可用,ok,,214
+BCC 光学扩散,BCC+晕,BCC_HALO,1.0,可用,ok,,171
+BCC 光学扩散,BCC+景深,BCC_DEPTHOFFIELD,1.0,可用,ok,,163
+BCC 光学扩散,BCC+相机聚焦,BCC_RACKFOCUS,1.0,可用,ok,,160
+BCC 光学扩散,BCC+网,BCC_NET,1.0,可用,ok,,161
+BCC 光学扩散,BCC+自扩散,BCC_DIFFUSION,1.0,可用（内容靠预设）,preset,内容参数：Texture,242
+BCC 光学扩散,BCC+薄雾,BCC_MIST,1.0,可用,ok,,167
+BCC 光学扩散,BCC+雾,BCC_FOG,1.0,可用,ok,,209
+BCC 光学扩散,BCC+霜,BCC_FROST,1.0,可用,ok,,220
+BCC 匹配运动,BCC 匹配运动,BCC3MatchMove,7.0,要先指定输入,input,要先指定前景,70
+BCC 匹配运动,BCC 边角定位工作室,BCC Corner Pin Studio,7.0,可用,ok,,115
+BCC 匹配运动,BCC+证人保护 ML,BCC_WITNESSPROTECTIONML,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,170
+BCC 匹配运动,BCC+车牌 ML,BCC_LICENSEPLATEML,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,169
+BCC 变形,BCC 卷曲,BCC Curl,7.0,可用,ok,,114
+BCC 变形,BCC 变体,BCC4Morph,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,11
+BCC 变形,BCC 变形,BCC4Warp,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,11
+BCC 变形,BCC 旋转,BCC3Twirl,7.0,可用,ok,,150
+BCC 变形,BCC 极地扭曲,BCC_POLARWARP,1.0,可用,ok,,162
+BCC 变形,BCC 极坐标位移,BCC3Polar Displacement,7.0,可用,ok,,97
+BCC 变形,BCC 波浪,BCC3Wave,7.0,可用,ok,,156
+BCC 变形,BCC 波纹,BCC3Ripple,7.0,可用,ok,,162
+BCC 变形,BCC 湍流,BCC4Turbulence,7.0,可用,ok,,196
+BCC 变形,BCC 矢量位移,BCC3Vector Displacement,7.0,可用,ok,,98
+BCC 变形,BCC 置换贴图,BCC3Displacement Map,7.0,可用,ok,,150
+BCC 变形,BCC 膨胀,BCC3Bulge,7.0,可用,ok,,164
+BCC 变形,BCC 视频变形,BCC4Video Morph,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+BCC 变形,BCC+ST Map,BCC_STMAP,1.0,要先指定输入,input,要先指定贴图,18
+BCC 图像恢复,BCC 像素修复器,BCC6Pixel Fixer,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,56
+BCC 图像恢复,BCC 光学稳定器,BCC3Stabilizer,7.0,要先指定输入,input,要先点分析,34
+BCC 图像恢复,BCC 去除线形划伤,BCC3Wire Remover,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,89
+BCC 图像恢复,BCC 回复磁带损坏,BCC Dropout Fixer,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,14
+BCC 图像恢复,BCC 安全广播,BCC Broadcast Safe,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,26
+BCC 图像恢复,BCC 灰尘与划痕,BCC3Dust and Scratches,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,76
+BCC 图像恢复,BCC 移除器,BCC Remover,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,80
+BCC 图像恢复,BCC 重定义,BCC Reframer,7.0,要先指定输入,input,要加在合成尺寸的纯色层上并指定输入,78
+BCC 图像恢复,BCC 镜头校正,BCC Lens Correction,7.0,可用,ok,,13
+BCC 图像恢复,BCC 闪烁修复器,BCC3Flicker Fixer,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,62
+BCC 图像恢复,BCC+伪影,BCC_DEBAND,1.0,可用,ok,,147
+BCC 图像恢复,BCC+块状,BCC_DEBLOCK,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,146
+BCC 图像恢复,BCC+帧修复器 ML,BCC_MLFRAMEFIXER,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,152
+BCC 图像恢复,BCC+提高 ML,BCC_UPRESML,1.0,可用,ok,,10
+BCC 图像恢复,BCC+美颜工作室,BCC_BEAUTYSTUDIO,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,220
+BCC 图像恢复,BCC+降噪 ML,BCC_MLDENOISE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,149
+BCC 图像恢复,BCC+魔法锐化,BCC_MAGICSHARP,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,173
+BCC 时间,BCC 循环,BCC3Looper,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,15
+BCC 时间,BCC 抖动,BCC3Jitter,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,65
+BCC 时间,BCC 抖动基本,BCC3Jitter Basic,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,82
+BCC 时间,BCC 抽帧,BCC3Posterize Time,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,80
+BCC 时间,BCC 时间位移,BCC3Time Displacement,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,84
+BCC 时间,BCC 时间模糊,BCC3Temporal Blur,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,88
+BCC 时间,BCC 节拍反应器,BCC Beat Reactor,7.0,可用（内容靠预设）,preset,内容参数：Custom Falloff,83
+BCC 时间,BCC 轨迹,BCC3Trails,7.0,可用,ok,,99
+BCC 时间,BCC 轨迹基本,BCC3Trails Basic,7.0,可用,ok,,32
+BCC 时间,BCC+重定时 ML,BCC_MLRETIMER,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,15
+BCC 时间,BCC+音频可视化,BCC_AUDIOVISUALIZER,1.0,要先指定输入,input,要先选音频图层,316
+BCC 模糊,BCC Z-模糊,BCC3Z-Blur,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,87
+BCC 模糊,BCC 反锐化模糊,BCC3Unsharp Mask,7.0,可用,ok,,81
+BCC 模糊,BCC 镜头形状,BCC6LensShape,7.0,可用,ok,,103
+BCC 模糊,BCC+径向模糊,BCC_RADIALBLUR,1.0,可用,ok,,213
+BCC 模糊,BCC+方向模糊,BCC_DIRECTIONALBLUR,1.0,可用,ok,,212
+BCC 模糊,BCC+模糊,BCC_BLUR,1.0,可用,ok,,205
+BCC 模糊,BCC+涂抹模糊,BCC_SMEARBLUR,1.0,可用,ok,,231
+BCC 模糊,BCC+细节,BCC_DETAIL,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,159
+BCC 模糊,BCC+运动模糊 ML,BCC_MOTIONBLURML,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,223
+BCC 模糊,BCC+通道模糊,BCC_CHANNELBLUR,1.0,可用,ok,,210
+BCC 模糊,BCC+通道模糊 YUV,BCC_CHANNELYUVBLUR,1.0,可用,ok,,210
+BCC 模糊,BCC+镜头模糊,BCC_LENSBLUR,1.0,可用,ok,,235
+BCC 浏览,BCC FX 浏览器,BCCFXBrowser,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,1
+BCC 渐变 & 着色,BCC+ND 渐变,BCC_NDGRADIENT,1.0,可用,ok,,158
+BCC 渐变 & 着色,BCC+凝胶,BCC_GELS,1.0,可用,ok,,161
+BCC 渐变 & 着色,BCC+分离色调,BCC_SPLITTONE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,162
+BCC 渐变 & 着色,BCC+双重渐变,BCC_DUALGRADIENT,1.0,可用,ok,,163
+BCC 渐变 & 着色,BCC+径向色,BCC_RADIALTINT,1.0,可用,ok,,170
+BCC 渐变 & 着色,BCC+摄影,BCC_PHOTOGRAPHIC,1.0,可用,ok,,161
+BCC 渐变 & 着色,BCC+日落,BCC_SUNSET,1.0,可用,ok,,166
+BCC 渐变 & 着色,BCC+棕色,BCC_SEPIA,1.0,可用,ok,,161
+BCC 渐变 & 着色,BCC+着色,BCC_TINT,1.0,可用,ok,,165
+BCC 渐变 & 着色,BCC+着色渐变,BCC_COLORIZEGRADIENT,1.0,可用,ok,,167
+BCC 渐变 & 着色,BCC+肤色色调,BCC_SKINTONE,1.0,可用,ok,,161
+BCC 渐变 & 着色,BCC+颜色渐变,BCC_COLORGRADIENT,1.0,可用,ok,,161
+BCC 渐变 & 着色,BCC+颜色点,BCC_COLORSPOT,1.0,可用,ok,,162
+BCC 灯光,BCC 光线辐射边缘,BCC3Rays Radiant Edges,7.0,可用,ok,,188
+BCC 灯光,BCC 反向聚光灯,BCC3Reverse Spotlight,7.0,可用,ok,,102
+BCC 灯光,BCC 射线浮肿,BCC3Rays Puffy,7.0,可用,ok,,186
+BCC 灯光,BCC 扫光,BCC3Light Sweep,7.0,可用,ok,,171
+BCC 灯光,BCC 激光束,BCC Laser Beam,7.0,可用,ok,,180
+BCC 灯光,BCC 聚光灯,BCC3Spotlight,7.0,可用,ok,,102
+BCC 灯光,BCC 舞台灯光,BCC3Stage Light,7.0,可用,ok,,152
+BCC 灯光,BCC 边缘照明,BCC3Edge Lighting,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,148
+BCC 灯光,BCC 镜头光晕 3D,BCC3Lens Flare 3D,7.0,可用,ok,,366
+BCC 灯光,BCC 闪电,BCC3Lightning,7.0,可用,ok,,45
+BCC 灯光,BCC+关键光,BCC_KEYLIGHT,1.0,可用,ok,,151
+BCC 灯光,BCC+冰晕,BCC_ICEHALOS,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,169
+BCC 灯光,BCC+反射镜,BCC_REFLECTOR,1.0,可用,ok,,203
+BCC 灯光,BCC+发光,BCC_GLOW,1.0,可用,ok,,222
+BCC 灯光,BCC+发光暗度,BCC_GLOWDARKS,1.0,可用,ok,,165
+BCC 灯光,BCC+发光边缘,BCC_GLOWEDGES,1.0,可用,ok,,211
+BCC 灯光,BCC+射线,BCC_RAYS,1.0,可用,ok,,222
+BCC 灯光,BCC+新照明,BCC_RELIGHT,1.0,可用,ok,,239
+BCC 灯光,BCC+星光,BCC_MULTISTAR,1.0,可用,ok,,157
+BCC 灯光,BCC+条纹,BCC_STREAKS,1.0,可用,ok,,207
+BCC 灯光,BCC+漏光,BCC_LIGHTLEAKS,1.0,可用,ok,,322
+BCC 灯光,BCC+灯光,BCC_LIGHT,1.0,可用（内容靠预设）,preset,内容参数：Gobo,251
+BCC 灯光,BCC+环境光,BCC_AMBIENTLIGHT,1.0,可用,ok,,201
+BCC 灯光,BCC+眼光,BCC_EYELIGHT,1.0,可用,ok,,178
+BCC 灯光,BCC+色度带滤镜,BCC_CHROMABANDS,1.0,可用,ok,,218
+BCC 灯光,BCC+过度曝光,BCC_OVEREXPOSE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,201
+BCC 灯光,BCC+镜头光斑,BCC_LENSFLARE,1.0,可用（内容靠预设）,preset,内容参数：Flare,93
+BCC 电影风格,BCC 匹配噪点,BCC3Match Grain,7.0,可用,ok,,87
+BCC 电影风格,BCC 帧速控制,BCC3Deinterlace,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,82
+BCC 电影风格,BCC+三条纹,BCC_THREESTRIP,1.0,可用,ok,,165
+BCC 电影风格,BCC+交叉处理,BCC_CROSSPROCESSING,1.0,可用（内容靠预设）,preset,内容参数：Curves；默认参数下画面无变化，要调参数或换素材,152
+BCC 电影风格,BCC+双色电影,BCC_TWOSTRIP,1.0,可用,ok,,165
+BCC 电影风格,BCC+外观,BCC_LOOKS,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,220
+BCC 电影风格,BCC+大气发光,BCC_ATMOSPHERICGLOW,1.0,可用,ok,,336
+BCC 电影风格,BCC+影片辉光,BCC_FILMGLOW,1.0,可用,ok,,236
+BCC 电影风格,BCC+暗角,BCC_VIGNETTE,1.0,可用,ok,,172
+BCC 电影风格,BCC+漂白旁路,BCC_BLEACHBYPASS,1.0,可用,ok,,151
+BCC 电影风格,BCC+灯光闪烁,BCC_LIGHTFLICKER,1.0,可用,ok,,232
+BCC 电影风格,BCC+烟与雾,BCC_SMOKEANDFOG,1.0,可用,ok,,234
+BCC 电影风格,BCC+球体,BCC_ORBS,1.0,可用,ok,,243
+BCC 电影风格,BCC+电影胶片,BCC_FILMSTOCKS,1.0,可用（内容靠预设）,preset,内容参数：Curves；默认参数下画面无变化，要调参数或换素材,214
+BCC 电影风格,BCC+白天变黑夜,BCC_DAYFORNIGHT,1.0,可用,ok,,165
+BCC 电影风格,BCC+胶片划痕,BCC_FILMGRUNGE,1.0,可用,ok,,207
+BCC 电影风格,BCC+闪烁滤镜,BCC_FLASHING,1.0,可用,ok,,158
+BCC 电影风格,BCC+颗粒,BCC_GRAIN,1.0,可用,ok,,159
+BCC 粒子,BCC 2D 粒子,BCC32D Particles,7.0,可用,ok,,101
+BCC 粒子,BCC 下雨,BCC3Rain,7.0,可用,ok,,102
+BCC 粒子,BCC 下雪,BCC3Snow,7.0,可用,ok,,110
+BCC 粒子,BCC 幻影粒子,BCC Particle Illusion,7.0,要先指定输入,input,要先在它的界面里选发射器,171
+BCC 粒子,BCC 有机链,BCC Organic Strands,7.0,可用（内容靠预设）,preset,内容参数：Custom Falloff、Density Graph、Dispersion Graph、Image Collection、Opacity Graph,204
+BCC 粒子,BCC 百叶,BCC Card Array,7.0,可用（内容靠预设）,preset,内容参数：Custom Falloff,221
+BCC 粒子,BCC 粒子发射器 3D,BCC Particle Emitter 3D,7.0,可用（内容靠预设）,preset,内容参数：Image Collection、Opacity Evolve Graph、Rate Evolve、Size Evolve Graph,350
+BCC 粒子,BCC 粒子阵列 3D,BCC Particle Array 3D,7.0,可用（内容靠预设）,preset,内容参数：Custom Falloff、Graph、Image Collection,279
+BCC 粒子,BCC 艺术 3D,BCC Pin Art 3D,7.0,可用（内容靠预设）,preset,内容参数：Custom Falloff、Image Collection,222
+BCC 纹理,BCC 噪声贴图 2,BCC4Noise Map 2,7.0,可用,ok,,50
+BCC 纹理,BCC 混合颜色,BCC3Mixed Colors,7.0,可用,ok,,17
+BCC 纹理,BCC 腐蚀性的,BCC3Caustics,7.0,可用,ok,,93
+BCC 纹理,BCC+纹理,BCC_TEXTURES,1.0,可用（内容靠预设）,preset,内容参数：Texture,171
+BCC 艺术效果,BCC 中值,BCC3Median,7.0,可用,ok,,86
+BCC 艺术效果,BCC 中间色,BCC Halftone,7.0,可用,ok,,107
+BCC 艺术效果,BCC 凹凸贴图,BCC3Bump Map,7.0,可用,ok,,35
+BCC 艺术效果,BCC 喷漆噪点,BCC3Spray Paint Noise,7.0,可用,ok,,80
+BCC 艺术效果,BCC 招贴画,BCC3Artists Poster,7.0,可用,ok,,106
+BCC 艺术效果,BCC 木炭画,BCC6Charcoal Sketch,7.0,可用,ok,,97
+BCC 艺术效果,BCC 水彩画,BCC6Water Color,7.0,可用,ok,,107
+BCC 艺术效果,BCC 漫画,BCC6Cartoon2Look,7.0,可用,ok,,110
+BCC 艺术效果,BCC 素描,BCC6Pencil Sketch,7.0,可用,ok,,115
+BCC 艺术效果,BCC 色调分离,BCC3Posterize,7.0,可用,ok,,93
+BCC 艺术效果,BCC 艺术画,BCC3Cartooner,7.0,可用,ok,,92
+BCC 艺术效果,BCC 马赛克瓷砖,BCC4Tile Mosaic,7.0,可用,ok,,83
+BCC 艺术效果,BCC+X射线,BCC_XRAY,1.0,可用,ok,,205
+BCC 艺术效果,BCC+哈里斯快门,BCC_HARRISSHUTTER,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,209
+BCC 艺术效果,BCC+夜视,BCC_NIGHTVISION,1.0,可用,ok,,165
+BCC 艺术效果,BCC+彩色红外,BCC_COLORINFRARED,1.0,可用,ok,,203
+BCC 艺术效果,BCC+彩色阴影,BCC_COLORSHADOW,1.0,可用,ok,,161
+BCC 艺术效果,BCC+红外线,BCC_INFRARED,1.0,可用,ok,,212
+BCC 艺术效果,BCC+边界,BCC_BORDERS,1.0,可用,ok,,21
+BCC 转场,BCC RGB置换溶解,BCC RGB Dspl Dissolve,7.0,可用,ok,,40
+BCC 转场,BCC 万亩田溶解,BCC Kaleida Dissolve,7.0,可用,ok,,34
+BCC 转场,BCC 三色调溶解,BCC Tritone Dissolve,7.0,可用,ok,,23
+BCC 转场,BCC 丝带擦除,BCC Ribbon Wipe,7.0,可用,ok,,75
+BCC 转场,BCC 交叉融化,BCC Cross Melt,7.0,可用,ok,,33
+BCC 转场,BCC 光线擦除,BCC Light Wipe,7.0,可用,ok,,19
+BCC 转场,BCC 划格擦除,BCCChecker Wipe,7.0,可用,ok,,80
+BCC 转场,BCC 卷曲溶解,BCC Curl Dissolve,7.0,可用,ok,,27
+BCC 转场,BCC 合成溶解,BCC Composite Dissolve,7.0,可用,ok,,13
+BCC 转场,BCC 多重扩展擦除,BCC3Multi Stretch Wipe,7.0,可用,ok,,96
+BCC 转场,BCC 多重条纹擦除,BCC3Multi Stripe Wipe,7.0,可用,ok,,85
+BCC 转场,BCC 射线溶解,BCC_RAYSDISSOLVE,1.0,可用,ok,,44
+BCC 转场,BCC 幻影粒子溶解,BCC PI Dissolve,7.0,可用（内容靠预设）,preset,内容参数：Particle Illusion Data；默认参数下画面无变化，要调参数或换素材,45
+BCC 转场,BCC 彩色辉光溶解,BCC Colorize Glow Dissolve,7.0,可用,ok,,44
+BCC 转场,BCC 戒指擦除,BCC Rings Wipe,7.0,可用,ok,,82
+BCC 转场,BCC 损坏 TV 溶解,BCC Damaged TV Dissolve,7.0,可用,ok,,30
+BCC 转场,BCC 旋风,BCC Twister,7.0,可用,ok,,16
+BCC 转场,BCC 晕影擦除,BCC Blobs Wipe,7.0,可用,ok,,72
+BCC 转场,BCC 棱镜溶解,BCC_PRISMDISSOLVE,1.0,可用,ok,,43
+BCC 转场,BCC 水波溶解,BCC Water Waves Dissolve,7.0,可用,ok,,32
+BCC 转场,BCC 波纹溶解,BCC Ripple Dissolve,7.0,可用,ok,,35
+BCC 转场,BCC 烧坏边缘,BCC3Burnt Film,7.0,可用,ok,,27
+BCC 转场,BCC 瓷砖擦拭,BCC Tile Wipe,7.0,可用,ok,,19
+BCC 转场,BCC 矢量模糊溶解,BCC Vector Blur Dissolve,7.0,可用,ok,,23
+BCC 转场,BCC 网格擦除,BCC Grid Wipe,7.0,可用,ok,,18
+BCC 转场,BCC 网格状图案擦除,BCC3Criss-Cross Wipe,7.0,可用,ok,,100
+BCC 转场,BCC 镜头光晕溶解,BCC Lens Flare Dissolve,7.0,可用,ok,,261
+BCC 转场,BCC 镜头光晕转场,BCC Lens Flare Spiked,7.0,可用,ok,,53
+BCC 转场,BCC 镜头光环转场,BCC Lens Flare Round,7.0,可用,ok,,47
+BCC 转场,BCC 镜头模糊溶解,BCC Lens Blur Dissolve,7.0,可用,ok,,35
+BCC 转场,BCC 镜头畸变擦除,BCC Lens Distortion Wipe,7.0,可用,ok,,16
+BCC 转场,BCC 镜头闪光,BCC Lens Flash,7.0,可用,ok,,58
+BCC 转场,BCC+交叉缩放溶解,BCC_CROSSZOOMDISSOLVE,1.0,可用,ok,,38
+BCC 转场,BCC+光球溶解,BCC_ORBSDISSOLVE,1.0,可用,ok,,53
+BCC 转场,BCC+大气发光溶解,BCC_ATMOSPHERICGLOWDISSOLVE,1.0,可用,ok,,127
+BCC 转场,BCC+崩溃缩放溶解,BCC_CRASHZOOMDISSOLVE,1.0,可用,ok,,37
+BCC 转场,BCC+径向擦除,BCC_RADIALWIPE,1.0,可用,ok,,46
+BCC 转场,BCC+摄像机抖动溶解,BCC_CAMERASHAKEDISSOLVE,1.0,可用,ok,,34
+BCC 转场,BCC+方向模糊溶解,BCC_DIRECTIONALBLURDISSOLVE,1.0,可用,ok,,33
+BCC 转场,BCC+方格擦除,BCC_RECTANGULARWIPE,1.0,可用,ok,,50
+BCC 转场,BCC+旋转平移,BCC_SWISH,1.0,可用,ok,,30
+BCC 转场,BCC+旋转模糊溶解,BCC_SPINBLURDISSOLVE,1.0,可用,ok,,41
+BCC 转场,BCC+星光溶解,BCC_MULTISTARDISSOLVE,1.0,可用,ok,,32
+BCC 转场,BCC+暗角擦除,BCC_VIGNETTEWIPE,1.0,可用,ok,,47
+BCC 转场,BCC+棱镜,BCC_SWISHPRISM,1.0,可用,ok,,43
+BCC 转场,BCC+模糊溶解,BCC_BLURDISSOLVE,1.0,可用,ok,,26
+BCC 转场,BCC+深度擦拭 ML,BCC_MLDEPTHWIPE,1.0,可用,ok,,60
+BCC 转场,BCC+溶解,BCC_DISSOLVE,1.0,可用,ok,,21
+BCC 转场,BCC+漏光溶解,BCC_LIGHTLEAKSDISSOLVE,1.0,可用,ok,,144
+BCC 转场,BCC+烟与雾溶解,BCC_SMOKEANDFOGDISSOLVE,1.0,可用,ok,,44
+BCC 转场,BCC+烟擦除,BCC_SMOKEWIPE,1.0,可用,ok,,33
+BCC 转场,BCC+电影胶卷,BCC_FILMROLL,1.0,可用,ok,,120
+BCC 转场,BCC+电影辉光溶解,BCC_FILMGLOWDISSOLVE,1.0,可用,ok,,55
+BCC 转场,BCC+画面损坏溶解,BCC_VIDEOGLITCHDISSOLVE,1.0,可用,ok,,98
+BCC 转场,BCC+相机平移,BCC_SWISHWARP,1.0,可用,ok,,34
+BCC 转场,BCC+相机聚焦溶解,BCC_RACKFOCUSDISSOLVE,1.0,可用,ok,,33
+BCC 转场,BCC+纹理擦除,BCC_TEXTUREWIPE,1.0,可用,ok,,27
+BCC 转场,BCC+线性擦除,BCC_LINEARWIPE,1.0,可用,ok,,43
+BCC 转场,BCC+跳接修复器 ML,BCC_MLJUMPCUT,1.0,可用,ok,,26
+BCC 转场,BCC+通道模糊溶解,BCC_CHANNELBLURDISSOLVE,1.0,可用,ok,,31
+BCC 转场,BCC+闪闪发光,BCC_SWISHGLOW,1.0,可用,ok,,62
+BCC 转场,BCC+颤动剪切,BCC_FLUTTERCUT,1.0,可用,ok,,33
+BCC 转场,BCC+马赛克溶解,BCC_MOSAICDISSOLVE,1.0,可用,ok,,68
+BCC 透视,BCC 3D 挤压图像破碎,BCC 3D Extruded Image Shatter,7.0,可用,ok,,125
+BCC 透视,BCC 三维图像破碎,BCC33D Image Shatter,7.0,可用,ok,,111
+BCC 透视,BCC 圆柱体,BCC3Cylinder,7.0,可用,ok,,88
+BCC 透视,BCC 快速镜像,BCC3Fast Flipper,7.0,可用,ok,,3
+BCC 透视,BCC 摇移和变焦,BCC Pan and Zoom,7.0,可用,ok,,66
+BCC 透视,BCC 球体,BCC3Sphere,7.0,可用,ok,,135
+BCC 透视,BCC 球形转场,BCC3Sphere Transition,7.0,可用,ok,,84
+BCC 透视,BCC 立方,BCC3Cube,7.0,可用,ok,,93
+BCC 透视,BCC 翻页,BCC3Page Turn,7.0,可用,ok,,11
+BCC 透视,BCC+转换,BCC_TRANSFORM,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,103
+BCC 键控&混合,BCC Alpha 模糊,BCC3Alpha Process,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,85
+BCC 键控&混合,BCC Alpha键,BCC3Make Alpha Key,7.0,可用,ok,,86
+BCC 键控&混合,BCC 三原色,BCC3RGB Blend,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,107
+BCC 键控&混合,BCC 合成,BCC3Composite,7.0,可用,ok,,105
+BCC 键控&混合,BCC 合成边缘调节,BCC3Composite Choker,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,14
+BCC 键控&混合,BCC 蒙板边缘修复,BCC3Matte Cleanup,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+BCC 键控&混合,BCC 蒙版抑制,BCC3Matte Choker,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,17
+BCC 键控&混合,BCC 超级键,BCC3Chroma Key,7.0,可用,ok,,17
+BCC 键控&混合,BCC 超级键工作室,BCC Chroma Key Studio,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,87
+BCC 键控&混合,BCC 预乘,BCC3Premult,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,1
+BCC 键控&混合,BCC+Primatte Studio,BCC_PRIMATTESTUDIO,1.0,可用（内容靠预设）,preset,内容参数：Primatte Data；默认参数下画面无变化，要调参数或换素材,123
+BCC 键控&混合,BCC+人脸 ML,BCC_MLFACESEGMENTATION,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,171
+BCC 键控&混合,BCC+保留复合,BCC_HOLDOUTCOMPOSITE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,156
+BCC 键控&混合,BCC+像素选择器,BCC_PIXELCHOOSER,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,145
+BCC 键控&混合,BCC+光学溶解,BCC_OPTICALDISSOLVE,1.0,可用,ok,,9
+BCC 键控&混合,BCC+光线包裹,BCC_LIGHTWRAP,1.0,要先指定输入,input,要先指定背景图层,155
+BCC 键控&混合,BCC+双路键,BCC_TWOWAYKEY,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,162
+BCC 键控&混合,BCC+合成,BCC_COMPOSITE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,316
+BCC 键控&混合,BCC+数字合成,BCC_MATHCOMPOSITE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,153
+BCC 键控&混合,BCC+无添加混合,BCC_NONADDITIVEMIX,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,151
+BCC 键控&混合,BCC+深度图 ML,BCC_MLDEPTHESTIMATION,1.0,可用,ok,,201
+BCC 键控&混合,BCC+溢色清理器,BCC_SPILLREMOVER,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,155
+BCC 键控&混合,BCC+线性亮度键,BCC_LINEARLUMAKEY,1.0,可用,ok,,162
+BCC 键控&混合,BCC+线性色键,BCC_LINEARCOLORKEY,1.0,可用,ok,,170
+BCC 键控&混合,BCC+色彩粘贴,BCC_COLORPASTE,1.0,可用,ok,,148
+BCC 键控&混合,BCC+蒙版修复 ML,BCC_MLMATTEREFINE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+BCC 键控&混合,BCC+边缘合成,BCC_EDGECOMPOSITE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,163
+BCC 键控&混合,BCC+边缘清洁器,BCC_EDGECLEANER,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,154
+BCC 镜头,BCC+广角镜头,BCC_WIDEANGLELENS,1.0,可用,ok,,64
+BCC 镜头,BCC+径向曝光,BCC_RADIALEXPOSURE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,158
+BCC 镜头,BCC+摄像机抖动,BCC_CAMERASHAKE,1.0,可用,ok,,212
+BCC 镜头,BCC+模拟色差,BCC_CHROMATICABERRATION,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,216
+BCC 镜头,BCC+消除色带,BCC_DEFRINGE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,165
+BCC 镜头,BCC+镜头失真,BCC_LENSDISTORTION,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,66
+BCC 颜色 & 色调,BCC 3路颜色校正,BCC6ThreeWayCC,7.0,可用（内容靠预设）,preset,内容参数：Inside Lift/Gamma/Gain、Outside Lift/Gamma/Gain；默认参数下画面无变化，要调参数或换素材,47
+BCC 颜色 & 色调,BCC 三色调,BCC3Tritone,7.0,可用,ok,,83
+BCC 颜色 & 色调,BCC 亮度-对比度,BCC3Brightness-Contrast,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,77
+BCC 颜色 & 色调,BCC 修改指定颜色,BCC3Correct Selected Color,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,94
+BCC 颜色 & 色调,BCC 多色调混合,BCC3MultiTone Mix,7.0,可用,ok,,91
+BCC 颜色 & 色调,BCC 着色,BCC3Colorize,7.0,可用,ok,,97
+BCC 颜色 & 色调,BCC 示波器,BCC6Videoscope,7.0,可用,ok,,44
+BCC 颜色 & 色调,BCC 色彩平衡,BCC3Color Balance,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,78
+BCC 颜色 & 色调,BCC 色彩校正,BCC3Color Correction,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,137
+BCC 颜色 & 色调,BCC 色相-饱和度-亮度,BCC3Hue-Sat-Lightness,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,79
+BCC 颜色 & 色调,BCC 色阶伽马值,BCC3Levels Gamma,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,82
+BCC 颜色 & 色调,BCC 负片效果,BCC3Invert Solarize,7.0,可用,ok,,75
+BCC 颜色 & 色调,BCC 颜色匹配,BCC3Color Match,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,93
+BCC 颜色 & 色调,BCC+低对比度,BCC_LOWCONTRAST,1.0,可用,ok,,154
+BCC 颜色 & 色调,BCC+偏光镜,BCC_POLARIZER,1.0,可用,ok,,173
+BCC 颜色 & 色调,BCC+分级,BCC_GRADE,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,248
+BCC 颜色 & 色调,BCC+增强滤镜,BCC_ENHANCING,1.0,可用,ok,,153
+BCC 颜色 & 色调,BCC+开尔文,BCC_KELVIN,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,162
+BCC 颜色 & 色调,BCC+显影,BCC_DEVELOP,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,161
+BCC 颜色 & 色调,BCC+曝光,BCC_FSTOP,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,171
+BCC 颜色 & 色调,BCC+消除荧光色,BCC_FLUORESCENT,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,148
+BCC 颜色 & 色调,BCC+选择性饱和度,BCC_SELECTIVESATURATION,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,157
+BCC 颜色 & 色调,BCC+阴影/高光,BCC_SHADOWSHIGHLIGHTS,1.0,可用,ok,,154
+BCC 颜色 & 色调,BCC+雾天,BCC_DEFOG,1.0,可用,ok,,162
+BCC 颜色 & 色调,BCC+雾霾,BCC_HAZE,1.0,可用,ok,,149
+BCC 颜色 & 色调,BCC+颜色链接,BCC_COLORLINK,1.0,可用,ok,,216
+BCC 颜色 & 色调,BCC+高对比度,BCC_HIGHCONTRAST,1.0,可用,ok,,149
+BCC 颜色 & 色调,BCC+黑白滤镜,BCC_BLACKANDWHITE,1.0,可用,ok,,203
+BCC 风格化,BCC Alpha边缘辉光,BCC3Glow Alpha Edges,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,130
+BCC 风格化,BCC RGB 像素噪声,BCC3RGB Pixel Noise,7.0,可用,ok,,81
+BCC 风格化,BCC RGB 边缘,BCC3RGB Edges,7.0,可用,ok,,93
+BCC 风格化,BCC 反射,BCC Reflection,7.0,可用,ok,,54
+BCC 风格化,BCC 垃圾,BCC Grunge,7.0,可用（内容靠预设）,preset,内容参数：Textures,271
+BCC 风格化,BCC 多重阴影,BCC3Multi Shadow,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,49
+BCC 风格化,BCC 彩色辉光,BCC3Colorize Glow,7.0,可用,ok,,173
+BCC 风格化,BCC 彩色项链,BCC4Color Choker,7.0,可用,ok,,105
+BCC 风格化,BCC 投射阴影,BCC Cast Shadow,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,67
+BCC 风格化,BCC 损坏 TV,BCC4Damaged TV,7.0,可用,ok,,157
+BCC 风格化,BCC 散射,BCC3Scatterize,7.0,可用,ok,,136
+BCC 风格化,BCC 浮雕,BCC3Emboss,7.0,可用,ok,,85
+BCC 风格化,BCC 边垃圾,BCC Edge Grunge,7.0,可用,ok,,122
+BCC 风格化,BCC 错位,BCC3Misalignment,7.0,可用,ok,,69
+BCC 风格化,BCC 阴影,BCC3Drop Shadow,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+BCC 风格化,BCC+扫描线,BCC_SCANLINE,1.0,可用,ok,,188
+BCC 风格化,BCC+棱镜,BCC_PRISMBLUR,1.0,可用,ok,,231
+BCC 风格化,BCC+视频故障,BCC_VIDEOGLITCH,1.0,可用,ok,,276
+BCC 风格化,BCC+超级 LED,BCC_SUPERLED,1.0,可用,ok,,353
+BCC 风格化,BCC+马赛克,BCC_MOSAIC,1.0,可用,ok,,157
+BGRA,LongShadow2,BGRA LongShadow2,1.6x0,可用,ok,,25
+BGRA,NormalMapperForAE,BGRA NormalMapper4AE,1.3x0,可用,ok,,3
+BGRA,RetroDither,AGPRetroDither,1.10x0,可用,ok,,7
+BGRA,SoftShadow,BGRA SoftShadow,1.6x0,可用,ok,默认参数下画面无变化，要调参数或换素材,19
+Black Ops Effects,Rescue Matte Filler,Rescue Matte Filler,1.3,测试时带水印,wm,,9
+Boris FX Mocha,Mocha AE,mochaAECC,12.2.1,可用,ok,默认参数下画面无变化，要调参数或换素材,29
+Boris FX Mocha,Mocha Pro,mochaProAE,106.0,可用,ok,默认参数下画面无变化，要调参数或换素材,39
+Buena Depth Cue,Atmosphere,BuNa Fog AlaCarte,2.5.8,要先指定输入,input,,10
+Buena Depth Cue,Camera Mapper,BuNa Camera Mapper,2.5.8,可用,ok,要加在三维图层上；默认参数下画面无变化，要调参数或换素材,0
+Buena Depth Cue,Depth,BuNa Depth,2.5.8,要先指定输入,input,,10
+Buena Depth Cue,Flipside,BuNa Flipside,2.5.3,可用,ok,要加在三维图层上；默认参数下画面无变化，要调参数或换素材,0
+CROSSPHERE,Bokeh,CROSSPHERE_Bokeh,1.4.1x1,可用,ok,,25
+CROSSPHERE,FractalNoise3D,CROSSPHERE_FractalNoise3D,1.0x1,可用,ok,,43
+CROSSPHERE,PBAccelerator,CROSSPHERE_PBAccelerator,1.0x1,加上时弹窗,dialog,,123
+CROSSPHERE,Power Sphere,CROSSPHERE_PowerSphere,1.1.6,测试时带水印,wm,,39
+Color Manipulation (timeinpixel,Nobe Color Remap,Nobe Color Remap,1.9x1,要先指定输入,input,,8
+Composite Wizard,Composite Color Matcher,ISFX Color Matcher,1.4.14,可用,ok,,10
+Composite Wizard,Deluxe Edge Finder,ISFX Edge Border Pro,1.4.14,要先指定输入,input,,6
+Composite Wizard,Deluxe Edge Finder EZ,ISFX Edge Border,1.4.14,要先指定输入,input,,2
+Composite Wizard,Denoiser,ISFX Denoiser,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+Composite Wizard,Edge Blur,ISFX Edge Blur Pro,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+Composite Wizard,Edge Blur EZ,ISFX Edge Blur,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+Composite Wizard,Light Wrap,ISFX Light Wrap,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+Composite Wizard,Matte Feather,ISFX Edge Feather Pro,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,8
+Composite Wizard,Matte Feather EZ,Edge Feather,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+Composite Wizard,Matte Feather Sharp,ISFX Edge Feather Sharp,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+Composite Wizard,Miracle Alpha Cleaner,ISFX Alpha Clean,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+Composite Wizard,Re-Matter,ISFX Matte Cutter,1.4.14,可用,ok,,3
+Composite Wizard,Smooth Screen,ISFX Smooth Screen,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+Composite Wizard,Spill Killer,ISFX Spill Killer Pro,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+Composite Wizard,Spill Killer EZ,ISFX Spill Killer,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+Composite Wizard,Super Blur,ISFX Faster Blur,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+Composite Wizard,Super Compound Blur,ISFX Composite Blur 2,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+Composite Wizard,Super Rack Focus,ISFX Rack Focus,1.4.14,可用,ok,,8
+Composite Wizard,Wire&Rig Zapper,ISFX Wire&RigRemoval,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+Composite Wizard,Zone HLS,ISFX Zone HLS,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,10
+Digital Anarchy,Beauty Box,Digital Anarchy Beauty Box6,6.0.3,可用（内容靠预设）,preset,内容参数：Preset String；默认参数下画面无变化，要调参数或换素材,29
+Digital Anarchy,Beauty Box Legacy,Digital Anarchy Beauty Box,6.0.3,可用（内容靠预设）,preset,内容参数：Preset String；默认参数下画面无变化，要调参数或换素材,28
+Digital Anarchy,Beauty Box Shine Removal,Digital Anarchy Beauty Box Shin,6.0.3,可用（内容靠预设）,preset,内容参数：Data；默认参数下画面无变化，要调参数或换素材,15
+Digital Anarchy,Flicker Free,Digital Anarchy Flicker Free,3.0.4,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+Digital Anarchy,Samurai,Digital Anarchy Samurai,1.3.1,可用,ok,,19
+Digital Anarchy,Ugly Box,Digital Anarchy Ugly Box,2.0.4,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+EFX,EFX Chromatic Aberration,efx_chromaber,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+EFX keying/alpha,EFX Alpha Choke,efx_alpha_choke,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+EFX keying/alpha,EFX Alpha Math,efx_alpha_math,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,8
+EFX keying/alpha,EFX Alpha S'n'P,efx_alpha_snp,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+EFX keying/alpha,EFX Alpha select,efx_alpha_select,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+EFX keying/alpha,EFX Alpha streaks,efx_alpha_streaks,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,2
+EFX keying/alpha,EFX Color select,efx_color_select,2.0x1,要先指定输入,input,,11
+EFX keying/alpha,EFX Color select HSL,efx_colorSelect_hsl,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,14
+EFX keying/alpha,EFX Despill,efx_despill,2.0x1,可用,ok,,5
+EFX keying/alpha,EFX Despill advanced,efx_despill_adv,2.0x1,可用,ok,,9
+EFX keying/alpha,EFX Despill brute,efx_despill_brute,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,2
+EFX keying/alpha,EFX Edge bleed2,efx_edge_bleed2,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+EFX keying/alpha,EFX Edge blur,efx_edge_blur,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,2
+EFX keying/alpha,EFX Keyer,efx_keyer,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+EFX keying/alpha,EFX Keyer HSL,efx_keyer_hsl,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+EFX keying/alpha,EFX Luma select,efx_luma_select,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,8
+EFX keying/alpha,EFX Spill alpha,efx_spillalpha,2.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+FAN,Suppressor,FAN Color Supress,2.1,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+FAN,Suppressor w.Sliders,FAN Supressor w.Sliders,2.1,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+FAN,b_dots,FAN b_dots,2.1,可用,ok,,37
+FAN,b_stroke,FAN b_stroke,2.1,要先指定输入,input,,51
+FEC 变形,FEC EZ 懒惰波,ICEd LazyWaves 1.0,7.0,可用,ok,,61
+FEC 变形,FEC EZ 波纹,ICEd EZRipples 1.0,7.0,可用,ok,,61
+FEC 变形,FEC 倾斜,cy Slant,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,60
+FEC 变形,FEC 倾斜剪影,cy Slant Matte,7.0,要先指定输入,input,,61
+FEC 变形,FEC 凸出,ICEd Bulge,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,113
+FEC 变形,FEC 分裂,cy Split,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,112
+FEC 变形,FEC 分裂 2,cy Split 2,7.0,可用（内容靠预设）,preset,内容参数：Curve Shape；默认参数下画面无变化，要调参数或换素材,61
+FEC 变形,FEC 卷曲,ICE Twirl,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,60
+FEC 变形,FEC 失真运动,cy Flo Motion,7.0,可用,ok,,117
+FEC 变形,FEC 弯曲,cy Bend It,7.0,可用,ok,,90
+FEC 变形,FEC 弯曲器,cy Bender,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,113
+FEC 变形,FEC 水波,ICEd WaterWaves 1.0,7.0,可用,ok,,80
+FEC 变形,FEC 波纹脉冲,cy Ripple Pulse,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,62
+FEC 变形,FEC 涂抹,cy Smear,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,61
+FEC 变形,FEC 球面化,ICEd Spherize,7.0,可用,ok,,63
+FEC 变形,FEC 瓦盖,cy Tiler,7.0,可用,ok,,117
+FEC 变形,FEC 矩形刮擦,FEC Rectangular Scale Wipe,7.0,可用,ok,,48
+FEC 变形,FEC 矿筛,cy Griddler,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,64
+FEC 变形,FEC 透视点,cy Power Pin,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,64
+FEC 变形,FEC 透镜,cy Lens,7.0,可用,ok,,112
+FEC 图像,FEC 中值,ICE Median2,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,68
+FEC 图像,FEC 合成,cy Composite,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,65
+FEC 图像,FEC 噪点,ICE Noise2,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,66
+FEC 图像,FEC 差异混合,FEC Blend,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,68
+FEC 图像,FEC 模糊,ICE'd MiniMax,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,69
+FEC 图像,FEC 简单钢丝擦除,cy Simple Wire Removal,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,67
+FEC 图像,FEC 通道噪点,ICE Channel Noise,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,68
+FEC 图像,FEC 通道贴图,cy Alpha Map,7.0,可用（内容靠预设）,preset,内容参数：Curve Shape；默认参数下画面无变化，要调参数或换素材,58
+FEC 时间,FEC 强大的运动模糊,cy Force Motion Blur,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,61
+FEC 时间,FEC 时间拖尾,cy Wide Time,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,61
+FEC 时间,FEC 时间混合,cy Time Blend,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,59
+FEC 时间,FEC 时间混合 FX,cy Time Blend FX,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,60
+FEC 模糊 & 锐化,FEC 彩色亮度模糊,ICEd ChromaBlur 1,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,67
+FEC 模糊 & 锐化,FEC 方向模糊,ICEd Directional Blur,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,96
+FEC 模糊 & 锐化,FEC 旋转模糊,ICEd Spin,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,66
+FEC 模糊 & 锐化,FEC 模糊,ICEd Blur2,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,119
+FEC 模糊 & 锐化,FEC 矢量模糊,cy Vector Blur,7.0,可用,ok,,103
+FEC 模糊 & 锐化,FEC 缩放模糊,ICEd Zoom,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,66
+FEC 模糊 & 锐化,FEC 虚光蒙版,ce UnsharpMask,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,68
+FEC 模糊 & 锐化,FEC 螺旋模糊,ICEd Spiral,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,119
+FEC 模糊 & 锐化,FEC 软化,ICEd Soften 2.7,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,62
+FEC 模糊 & 锐化,FEC 通道模糊,ICEd Channel Blur,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,73
+FEC 模糊 & 锐化,FEC 锐化,ICEd Sharpen 2.7,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,62
+FEC 灯光,FEC 体积光,cy Light Rays,7.0,可用,ok,,70
+FEC 灯光,FEC 强光爆发,cy Light Burst 2.5,7.0,可用,ok,,67
+FEC 灯光,FEC 扫光,cy Light Sweep,7.0,可用,ok,,65
+FEC 灯光,FEC 灯光增强,ICEd LightWhirl,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,67
+FEC 灯光,FEC 灯光爆裂,ICEd LightBlast,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,67
+FEC 灯光,FEC 聚光灯,cy Spotlight,7.0,可用,ok,,67
+FEC 灯光,FEC 高光加强,ICEd LightTornedo,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,68
+FEC 粒子,FEC 下雨,cy Rain,7.0,可用,ok,,68
+FEC 粒子,FEC 下雪,cy Snow,7.0,可用,ok,,68
+FEC 粒子,FEC 像素爆炸,cy Pixel Polly,7.0,可用,ok,,12
+FEC 粒子,FEC 星爆式,cy Star Burst,7.0,可用,ok,,68
+FEC 粒子,FEC 毛发,FEC Hair NonRed,7.0,可用,ok,,110
+FEC 粒子,FEC 毛毛雨,cy Drizzle,7.0,可用,ok,,81
+FEC 粒子,FEC 水银先生,FEC 水银先生,7.0,可用,ok,,99
+FEC 粒子,FEC 泡沫,FEC Bubbles,7.0,可用,ok,,99
+FEC 粒子,FEC 球状运动,cy Ball Action,7.0,可用,ok,,101
+FEC 粒子,FEC 粒子世界,cy Particle World,7.0,可用（内容靠预设）,preset,内容参数：Opacity Birth-Death,78
+FEC 粒子,FEC 粒子系统 II,cy Particle Systems II,7.0,可用,ok,,62
+FEC 色彩校正,FEC 三色调,cy Toner,7.0,可用,ok,,64
+FEC 色彩校正,FEC 亮度对比度,ICE Brightness and Contrast,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,63
+FEC 色彩校正,FEC 伽马-基色-增益,ICEd Gamma/Pedestal/Gain,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,72
+FEC 色彩校正,FEC 反转,FEC Invert NonRed,7.0,可用,ok,,61
+FEC 色彩校正,FEC 替换颜色,ICEd Replace Color,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,72
+FEC 色彩校正,FEC 色彩偏移,cy Color Offset,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,117
+FEC 色彩校正,FEC 色彩平衡 HLS,ICE Color Balance HLS,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,64
+FEC 色彩校正,FEC 色彩平衡 RGB,ICE Color Balance2,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,64
+FEC 色彩校正,FEC 色调,ICEd Tint 1.0,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,63
+FEC 色彩校正,FEC 阈值,FEC Threshold NonRed,7.0,可用,ok,,68
+FEC 色彩校正,FEC 阈值RGB,FEC ThresholdRGB NonRed,7.0,可用,ok,,124
+FEC 转场过渡,FEC RGB溶解,FEC RGB Dissolve,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,18
+FEC 转场过渡,FEC 下雨过渡,cy Rain Wipe,7.0,可用,ok,,25
+FEC 转场过渡,FEC 倾斜擦除,cy Slant Wipe,7.0,可用,ok,,19
+FEC 转场过渡,FEC 反差擦拭,FEC 差异混合,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+FEC 转场过渡,FEC 图像擦除,cy Image Wipe,7.0,可用,ok,,45
+FEC 转场过渡,FEC 圆孔过渡,cy Radial ScaleWipe,7.0,可用,ok,,20
+FEC 转场过渡,FEC 栅格擦除,cy Grid Wipe,7.0,可用,ok,,44
+FEC 转场过渡,FEC 模糊溶解,cy Blur Dissolve,7.0,可用,ok,,45
+FEC 转场过渡,FEC 水波,FEC 水波溶解,7.0,可用,ok,,59
+FEC 转场过渡,FEC 湍流溶解,FEC Turbulent Dissolve,7.0,可用,ok,,47
+FEC 转场过渡,FEC 灯光擦除,cy Light Wipe,7.0,可用,ok,,22
+FEC 转场过渡,FEC 狭口,cy Jaws,7.0,可用,ok,,43
+FEC 转场过渡,FEC 玻璃,cy Glass Wipe,7.0,可用,ok,,17
+FEC 转场过渡,FEC 球面化,cy Spherize Wipe,7.0,可用,ok,,21
+FEC 转场过渡,FEC 矢量模糊,FEC 矢量模糊溶解,7.0,可用,ok,,50
+FEC 转场过渡,FEC 矿筛,cy Griddler Wipe,7.0,可用,ok,,22
+FEC 转场过渡,FEC 缠绕,cy Twister,7.0,可用,ok,,20
+FEC 转场过渡,FEC 缩放擦除,cy Scale Wipe,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,28
+FEC 转场过渡,FEC 螺旋模糊,FEC 旋转模糊溶解,7.0,可用,ok,,49
+FEC 转场过渡,FEC 调色溶解,FEC 三色调Dissolve,7.0,可用,ok,,49
+FEC 转场过渡,FEC 超级溶解,FEC Super Dissolve,7.0,可用,ok,,17
+FEC 转场过渡,FEC 辉光溶解,FEC 辉光 Dissolve,7.0,可用,ok,,54
+FEC 转场过渡,FEC 针擦除,cy Pin Wipe,7.0,可用,ok,,21
+FEC 转场过渡,FEC 镜头擦除,cy Lens Wipe,7.0,可用,ok,,19
+FEC 转场过渡,FEC 阈值RGB溶解,FEC Threshold RGB Dissolve,7.0,可用,ok,,49
+FEC 转场过渡,FEC 阈值溶解,FEC Threshold Dissolve,7.0,可用,ok,,45
+FEC 边缘,FEC 局部模糊,ICE SpotBlur,7.0,可用,ok,,77
+FEC 边缘,FEC 抖动边缘,ICE WiggleEdge,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,79
+FEC 边缘,FEC 斑点湍流,ICEd Turbulence 1.0,7.0,可用,ok,,79
+FEC 边缘,FEC 斑点碎屑,ICE Spot Tatter,7.0,可用,ok,,81
+FEC 边缘,FEC 斑点羽化,ICEd Spot Feather 1.0,7.0,可用,ok,,74
+FEC 边缘,FEC 渐变模糊,ICE Gradient Blur,7.0,可用,ok,,80
+FEC 边缘,FEC 点框,ICEd Spot Frame 1.0,7.0,可用,ok,,75
+FEC 边缘,FEC 超级渐变,ICE Power Ramp,7.0,可用,ok,,137
+FEC 边缘,FEC 边缘燃烧,ICE BurnEdges,7.0,可用,ok,,72
+FEC 边缘,FEC 边缘闪光,ICE SparkleEdge,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,81
+FEC 透视,FEC 圆柱体,cy Cylinder,7.0,可用,ok,,49
+FEC 透视,FEC 球体,cy Sphere,7.0,可用,ok,,49
+FEC 透视,FEC 简易阴影,ICEd Simple Shadow 1.0,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+FEC 透视,FEC 翻页,cy Page Turn,7.0,可用,ok,,41
+FEC 透视,FEC 超级阴影,ICEd Super Shadow 1.0,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,20
+FEC 透视,FEC 高级三维,cy Advanced 3D,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,23
+FEC 风格化,FEC 3D浮雕,ICEd 3D Relief 1.0,7.0,可用,ok,,90
+FEC 风格化,FEC 分形,ICEd Fractal,7.0,可用,ok,,71
+FEC 风格化,FEC 发音体,cy Kaleida,7.0,可用,ok,,129
+FEC 风格化,FEC 喷胶枪,FEC Glue Gun,7.0,要先指定输入,input,,89
+FEC 风格化,FEC 圆滑,cy Mr. Smoothie,7.0,可用,ok,,71
+FEC 风格化,FEC 散发过渡,cy Scatterize,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,64
+FEC 风格化,FEC 浮雕,ICEd Emboss2,7.0,可用,ok,,73
+FEC 风格化,FEC 燃烧,cy Burn Film,7.0,可用,ok,,65
+FEC 风格化,FEC 玻璃,FEC Glass NonRed,7.0,可用,ok,,96
+FEC 风格化,FEC 融化,FEC Blobbylize NonRed,7.0,可用,ok,,83
+FEC 风格化,FEC 视频片段,ICEd VideoFragment 1.0,7.0,可用,ok,,99
+FEC 风格化,FEC 辉光,ICEd Glow 1.0,7.0,可用,ok,,130
+FEC 风格化,FEC 重复平铺,cy RepeTile,7.0,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+FEC 风格化,FEC 镜头星光,ICEd LensStar 1.0,7.0,可用,ok,,70
+Fixel Algorithms,Fixel EdgeHancer 3,ADBE EdgeHancer 3.0 AE,3.0x0,可用,ok,,5
+Frischluft,FL Amiga Rulez,DRFL Amiga Rulez,1.2.12,可用,ok,,22
+Frischluft,FL Box Blur,DRFL BoxBlur,1.2.12,可用,ok,,11
+Frischluft,FL Curves - Absolute,DRFL Absolute Curves,1.1.6,可用（内容靠预设）,preset,内容参数：curve、curve_gui_data；默认参数下画面无变化，要调参数或换素材,8
+Frischluft,FL Curves - Relative,DRFL Relative Curves,1.1.6,可用（内容靠预设）,preset,内容参数：curve、curve_gui_data；默认参数下画面无变化，要调参数或换素材,11
+Frischluft,FL Depth Of Field,DRFL Depth of Field,1.5.5,可用,ok,默认参数下画面无变化，要调参数或换素材,40
+Frischluft,FL Glas Sphere,DRFL Glassphere,1.2.12,可用,ok,,24
+Frischluft,FL Glow,DRFL Glow,1.2.12,可用,ok,,34
+Frischluft,FL Highlight,DRFL Highlight,1.2.12,可用,ok,,33
+Frischluft,FL Mosaic Plane,DRFL Mosaic Plane,1.2.12,可用,ok,,16
+Frischluft,FL Out of Focus,DRFL Out of Focus,1.5.5,可用,ok,默认参数下画面无变化，要调参数或换素材,39
+Frischluft,FL Radial Blur,DRFL RadialBlur,1.2.12,可用,ok,,41
+Frischluft,FL Volumetrics,DRFL Volumetrics,1.2.12,可用,ok,,38
+GBS,GBDeflicker4,GBS Deflicker4,4.5x1,要先指定输入,input,要先分析,19
+ISP,Clip Alpha v1.2,ADBE ClipAlphav1.2,1.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+Image Lounge,Alpha Ramp,ISFX Alpha Ramp,1.4.14,可用,ok,,7
+Image Lounge,Border Patrol,ISFX Outliner 2,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,8
+Image Lounge,Color Map,ISFX Color Map,1.4.14,可用,ok,,5
+Image Lounge,Effect Blender,ISFX Blender,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+Image Lounge,Fractal Brimstone,ISFX Brimstone,1.4.14,可用,ok,,44
+Image Lounge,Fractal Clouds,ISFX Clouds,1.4.14,可用,ok,,14
+Image Lounge,Fractal Fire,ISFX Fire,1.4.14,可用,ok,,23
+Image Lounge,Fractal Tunnel,ISFX Tunnel,1.4.14,可用,ok,,17
+Image Lounge,Framer,ISFX Framer,1.4.14,可用,ok,,6
+Image Lounge,Grunge,ISFX Grunge,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+Image Lounge,Hall of Mirrors,ISFX Hall of Mirrors,1.4.14,可用,ok,,7
+Image Lounge,Hall of Time,ISFX Hall of Time,1.4.14,可用,ok,,8
+Image Lounge,Mirage,ISFX Mirage,1.4.14,可用,ok,,19
+Image Lounge,Real Shadows,ISFX Real Shadows,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,10
+Image Lounge,Text Scroll,ISFX Title Scroll 2,1.4.14,加上时弹窗,dialog,,18
+Image Lounge,Text Typewriter,ISFX Typewriter,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,27
+Image Lounge,True Camera Blur,ISFX Camera Blur,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,10
+Image Lounge,TrueCamera Rack Focus,ISFX Camera Blur Pro,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,18
+Image Lounge,Turbulent Distortion,ISFX Turbulent Distortion Pro,1.4.14,可用,ok,,18
+Image Lounge,Turbulent Distortion EZ,ISFX Turbulent Distortion,1.4.14,可用,ok,,8
+Image Lounge,Turbulent Edges,ISFX Turbulent Edges,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+Image Lounge,Ultra Displacer,ISFX Super Displacer,1.4.14,可用,ok,,8
+Image Lounge,Video Feedback,ISFX Video Feedback,1.4.14,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+JAe Tools,Real Glow,ADBE JAeToolsRealGlow,1.0,测试时带水印,wm,,9
+JAe Tools,Screen Equalizer,ADBE JAeToolsScreenEqualizer,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+JAe Tools,Spill Slayer,ADBE JAeToolsSpillSlayer,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,7
+KeenTools,GeoTracker,KT GeoTracker,104.3,可用（内容靠预设）,preset,内容参数：AE Anchor、Keyframe；默认参数下画面无变化，要调参数或换素材,699
+Keller.io,Superpose 2,Keller.io Superpose 2,2.2,测试时带水印,wm,,5
+Key Correct,Alpha Cleaner,Stonetics Alpha Cleaner,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+Key Correct,Alpha Ramp,Stonetics Alpha Ramp,1.3.5,可用,ok,,8
+Key Correct,Color Matcher,Stonetics Color Matcher 2,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+Key Correct,Deartifactor,Stonetics Deartifacter,1.3.5,可用,ok,,2
+Key Correct,Edge Blur,Stonetics Alpha Blur,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+Key Correct,Edge Finder,Stonetics Edge Finder,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+Key Correct,KC Denoiser,Stonetics Denoiser,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+Key Correct,Light Wrap,Stonetics Light Wrap,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,7
+Key Correct,Matte Feather,Stonetics Matte Feather,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+Key Correct,Matte Feather EZ,Stonetics Alpha Feather,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+Key Correct,Matte Feather Sharp,Stonetics Matte Feather Sharp,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+Key Correct,Rack Focus,Stonetics Rack Focus,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,10
+Key Correct,Smooth Screen,Stonetics PreKey,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+Key Correct,Speedy Blur,Stonetics Speedy Blur,1.3.5,可用,ok,,11
+Key Correct,Spill Killer,Stonetics Spill Killer,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+Key Correct,Wire/Rig Remover,Stonetics Wire/Rig Remover,1.3.5,可用,ok,,13
+Key Correct,Zone HLS,Stonetics Zone HLS,1.3.5,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+Knoll,UnMult,KNSW Unmult,1.1.1,可用,ok,,0
+Koji Color,Koji Advance Trial,ADBE 3DLUT TRIAL,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,17
+Motion Boutique,Pastiche,MB Pastiche,2.0,可用,ok,默认参数下画面无变化，要调参数或换素材,46
+Motion Boutique,Polyline (Pro),MB Polyline (Pro)  ,1.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,26
+NF's Plugins-Cell,F's CellGrad,F's CellGrad,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's CellLineEraser,F's CellLineEraser,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's ColorChange,F's ColorChange,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's ColorChangeFromPoint,F's ColorChangeFromPoint,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's ColorChangeSimple,F's ColorChangeSimple,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's ColorKey,F's ColorKey,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's EdgeLine,F's EdgeLine,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's EdgeLine-Hi,F's EdgeLine-Hi,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's IroTore,F's IroTore,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's IroToreAdjacent,F's IroToreAdjacent,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's LineTrace,F's LineTrace,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's MainLineRepaint,F's MainLineRepaint,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's Paint,F's Paint,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's PaintMalutPaint,F's PaintMalutPaint,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's PixelExtend,F's PixelExtend,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's PixelReplace,F's PixelReplace,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's PixelSelector,F's PixelSelector,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's SelectColor,F's SelectColor,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's SelectedBlur,F's SelectedBlur,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's ShitsuKanBlur,F's ShitsuKanBlur,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's Thin,F's Thin,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's UsedColorList,F's UsedColorList,3.0x0,加不上,noadd,,0
+NF's Plugins-Cell,F's colorThreshold,F's colorThreshold,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's AlphaFix,F's AlphaFix,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's ChannelShift,F's ChannelShift,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's CreateAlpha,F's CreateAlpha,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's EdgeBlur,F's EdgeBlur,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's MaskFromRGB,F's MaskFromRGB,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's MaskFromRGB_Multi,F's MaskFromRGB_Multi,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's Max,F's Max,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's Max_Kasumi,F's Max_Kasumi,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's Premultiply,F's Premultiply,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's RgbToAlpha,F's RgbToAlpha,3.0x0,加不上,noadd,,0
+NF's Plugins-Channel,F's alphaThreshold,F's alphaThreshold,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's CCplus,F's CCplus,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's FillColor,F's FillColor,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's HLS_Reverse,F's HLS_Reverse,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's RGBAControl,F's RGBAControl,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's ToGray,F's ToGray,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's Toner,F's Toner,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's YuvControl,F's YuvControl,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's grayToColorize,F's grayToColorize,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's grayToCountourLine,F's grayToCountourLine,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's graytoneToColorize,F's graytoneToColorize,3.0x0,加不上,noadd,,0
+NF's Plugins-Colorize,F's smokeThreshold,F's smokeThreshold,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's Spark,F's Spark,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's SparkGrand,F's SparkGrand,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's SparkMult,F's SparkMult,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's SparkRing,F's SparkRing,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's SparkStorm,F's SparkStorm,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's TouchDraw,F's TouchDraw,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's TouchDrawCenter,F's TouchDrawCenter,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's TouchDrawStraght,F's TouchDrawStraght,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's grayToWaveLine,F's grayToWaveLine,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's sputteringAlpha,F's sputteringAlpha,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's sputteringCircle,F's sputteringCircle,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's sputteringRect,F's sputteringRect,3.0x0,加不上,noadd,,0
+NF's Plugins-Draw,F's sputteringSplash,F's sputteringSplash,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's ChromaticAberration,F's ChromaticAberration,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's ColorMatKey,F's ColorMatKey,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Extract-Hi,F's Extract-Hi,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Filter,F's Filter,2.0,加不上,noadd,,0
+NF's Plugins-Filter,F's Flare,F's Flare,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's LineDetection,F's LineDetection,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Mosaic,F's Mosaic,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's NamiGarasu,F's NamiGarasu,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's OutLine,F's OutLine,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Posterization8bit,F's Posterization8bit,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Scanline,F's Scanline,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's ScreenShakeDir,F's ScreenShakeDir,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's ScreenShakeMM,F's ScreenShakeMM,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Shine,F's Shine,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Star,F's Star,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's Star_Colorful,F's Star_Colorful,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's VideoGrid,F's VideoGrid,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's VideoLine,F's VideoLine,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's VideoLine2nd,F's VideoLine2nd,3.0x0,加不上,noadd,,0
+NF's Plugins-Filter,F's whiteInOut,F's whiteInOut,3.0x0,加不上,noadd,,0
+NF's Plugins-Noise,F's AnimatedNoise,F's AnimatedNoise,3.0x0,加不上,noadd,,0
+NF's Plugins-Noise,F's ChannelNoise,F's ChannelNoise,3.0x0,加不上,noadd,,0
+NF's Plugins-Noise,F's RandomLineNoise,F's RandomLineNoise,3.0x0,加不上,noadd,,0
+NF's Plugins-Noise,F's RandomMosaic,F's RandomMosaic,3.0x0,加不上,noadd,,0
+NF's Plugins-Noise,F's RandomMosaic2nd,F's RandomMosaic2nd,3.0x0,加不上,noadd,,0
+NF's Plugins-Noise,F's RandomShift,F's RandomShift,3.0x0,加不上,noadd,,0
+NF's Plugins-expression,F's ExpsColors,F's ExpsColors,3.0x0,加不上,noadd,,0
+NF's Plugins-expression,F's ExpsPos,F's ExpsPos,3.0x0,加不上,noadd,,0
+Neat Video,Reduce Noise v6,NeatVideo6A,6.0x1,要人操作,manual,,0
+OLM Plug-ins,OLM Smoother,OLM Smoother,1.0.6x0,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+One Chance,Furikake,One Chance Furikake,1.0,可用（内容靠预设）,preset,内容参数：Color over life、Furikake、Opacity over life、Size over life,225
+PSOFT,P_BlurCel,PSOFT BLURCEL,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,118
+PSOFT,P_BlurCelLayer,PSOFT BLURCELLAYER,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,125
+PSOFT,P_BlurCelMulti,PSOFT BLURCELMULTI,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,47
+PSOFT,P_BlurCelRadial,PSOFT BLURCEL RADIAL,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,46
+PSOFT,P_BlurPath,PSOFT BLURPATH,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,26
+PSOFT,P_BlurRGB,PSOFT BLURRGB,1.1.1,可用,ok,,25
+PSOFT,P_BoundaryLine,PSOFT BOUNDARYLINE,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,55
+PSOFT,P_ChromaticAberrations,PSOFT CHROMATICABERRATIONS,1.1.1,可用,ok,,7
+PSOFT,P_ColorSelection,PSOFT COLORSELECTION,1.1.1,要先指定输入,input,,112
+PSOFT,P_Deband,PSOFT DEBAND,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,11
+PSOFT,P_DeltaFX,PSOFT DELTAFX,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,102
+PSOFT,P_Extend,PSOFT EXTEND,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,55
+PSOFT,P_Fill,PSOFT FILL,1.1.1,要先指定输入,input,,3
+PSOFT,P_FocusLines,PSOFT FOCUS LINES,1.5.2,可用,ok,,64
+PSOFT,P_Glow,PSOFT GLOW,1.1.1,可用（内容靠预设）,preset,内容参数：Glow Color Bar,17
+PSOFT,P_Gradient,PSOFT GRADIENT,1.1.1,可用,ok,,49
+PSOFT,P_GradientMap,PSOFT GradientMap,1.1.1,可用（内容靠预设）,preset,内容参数：Gradient Color Bar,5
+PSOFT,P_Halftone,PSOFT HALFTONE,1.5.2,可用,ok,,114
+PSOFT,P_InnerShadow,PSOFT InnerShadow,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,141
+PSOFT,P_PathStroke,PSOFT PATHSTROKE,1.5.2,要先指定输入,input,,58
+PSOFT,P_Pencil+ 4 Line,PSOFT PENCIL4 LINE,4.1.1,要先指定输入,input,,141
+PSOFT,P_ReplaceColor,PSOFT REPLACECOLOR,1.1.1,可用（内容靠预设）,preset,内容参数：1 : Reference Preset、1 : Replace Preset、2 : Reference Preset、2 : Replace Preset；默认参数下画面无变化，要调参数或换素材,102
+PSOFT,P_SpeedLines,PSOFT SPEED LINES,1.5.2,可用,ok,,50
+PSOFT,P_Texture,PSOFT TEXTURE,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,73
+PSOFT,anti-aliasing,PSOFT ANTI-ALIASING,1.1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,7
+Picture Instruments,Warping Wheels,Warping Wheels,1.0x0,渲染超时,timeout,,23
+Pixel Sorter Studio,HydroChrome,PXSRT_HydroChrome,1.1.1x1,可用,ok,,15
+Pixel Sorter Studio,Motion Mosh,GGGLMOSH,1.2.1x1,可用,ok,默认参数下画面无变化，要调参数或换素材,16
+Pixel Sorter Studio,Pixel Sorter 3,GG PixelSorter3,3.1x1,可用,ok,,35
+PixelGym,Quick ToneMapper,ADBE ToneMapper,1.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,10
+Plugin Everything,AutoFill 2,PEAF,2.0.2x1,可用（内容靠预设）,preset,内容参数：渐变小工具,168
+Plugin Everything,Bezier Node,PEBN,1.5.1x1,测试时带水印,wm,,46
+Plugin Everything,Cartoon Moblur,PECMBS,1.6.2x1,可用,ok,默认参数下画面无变化，要调参数或换素材,26
+Plugin Everything,Deep Glow,PEDG,1.6.6x1,可用,ok,,50
+Plugin Everything,Deep Glow 2,PEDG2,1.1.1x1,可用,ok,,87
+Plugin Everything,Digit Fiddler,PEDF,1.3.6x4,可用,ok,默认参数下画面无变化，要调参数或换素材,39
+Plugin Everything,Discotext,PETP,1.2.3x1,可用,ok,,39
+Plugin Everything,Displacer Pro,PEDX,1.6.1x4,可用,ok,默认参数下画面无变化，要调参数或换素材,40
+Plugin Everything,Effect Matte,PEEM,1.3.7x1,可用,ok,,24
+Plugin Everything,Extrude,PEMUEXTRUDE,1.0x1,可用（内容靠预设）,preset,内容参数：渐变轮,45
+Plugin Everything,HandyCam,PEHC,1.2.2x1,可用,ok,,32
+Plugin Everything,KeyMix,PEKM,1.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+Plugin Everything,Monospacer,PEMS,1.2.3x1,要先指定输入,input,,22
+Plugin Everything,Quick Chromatic Aberration 3,PEQCAGL,3.2x1,可用,ok,,36
+Plugin Everything,Shadow Studio 3,PESS3,1.1x1,可用（内容靠预设）,preset,内容参数：Color Gradient,75
+Plugin Everything,TextBox 2,PETB2,1.2.4x4,可用,ok,,76
+Plugin Everything,TextDelay 1.8,PETD2,1.8x1,可用,ok,,28
+ProductionCrate,LaForge Editor,PC_LAFORGE,1.3.7,可用（内容靠预设）,preset,内容参数：preset Name；默认参数下画面无变化，要调参数或换素材,1998
+ProductionCrate 3D,Aurora,PC_Aurora,1.1,可用,ok,,21
+ProductionCrate 3D,Cubic Fractal,PC_CubicFractal,1.2,可用,ok,,26
+ProductionCrate Filter,CRT Factory,PC_CRTFactory,1.2,可用,ok,,46
+ProductionCrate Filter,Chromatic Aberration (Free),PC_ChromaticAberration,1.1,可用,ok,,8
+ProductionCrate Filter,Chromatic Distortion,PC_ChromaticDistortion,1.1,可用,ok,,9
+ProductionCrate Filter,Crates Distortion,PC_CratesDistortion,1.1,可用,ok,,22
+ProductionCrate Filter,Crates Halftone,PC_CratesHalftone,1.1,可用,ok,,17
+ProductionCrate Filter,Crates Height Relight,PC_CratesHeightRelight,1.1,可用,ok,,31
+ProductionCrate Filter,Crates HyperGlitch,PC_CratesHyperGlitch,1.1,可用,ok,,32
+ProductionCrate Filter,Crates Pixelate,PC_CratesPixelate,1.2,可用,ok,,21
+ProductionCrate Filter,Crates Ring Bokeh,PC_CratesRingBokeh,1.1,可用,ok,,6
+ProductionCrate Filter,Crates VHS,PC_CratesVHS,1.1,可用,ok,,13
+ProductionCrate Filter,Kaleidoscoper,PC_Kaleidoscoper,1.1,可用,ok,,9
+ProductionCrate Filter,Lygia Kuwahara,PC_LygiaKuwahara,1.1,可用,ok,,5
+ProductionCrate Filter,Lygia Noise Blur,PC_LygiaNoiseBlur,1.1,可用,ok,,4
+ProductionCrate Glow,Crates Easy Glow,PC_CratesEasyGlow,1.3,可用,ok,,25
+ProductionCrate Glow,Crates Easy Godray (Free),PC_CratesEasyGodray,1.1,可用,ok,,11
+ProductionCrate Glow,Crates Glow,PC_CratesGlow,1.1,可用,ok,,24
+ProductionCrate MoGraph,Al Ro Color Warp,PC_AlRoColorWarp,1.1,可用,ok,,15
+ProductionCrate MoGraph,Crates Long Gradient,PC_CratesLongGradient,1.1,可用,ok,默认参数下画面无变化，要调参数或换素材,16
+ProductionCrate MoGraph,Crates Long Shadow (Free),PC_CratesLongShadow,1.12,可用,ok,默认参数下画面无变化，要调参数或换素材,10
+ProductionCrate MoGraph,Split Screen,PC_SplitScreen,1.2,可用,ok,,60
+ProductionCrate Transitions,Transition CRT Factory,PC_TransitionCRTFactory,1.2,可用,ok,,46
+ProductionCrate Transitions,Transition Chromatic Aberration (Free),PC_TransitionChromaticAberratio,1.1,可用,ok,,11
+ProductionCrate Transitions,Transition Crates HyperGlitch,PC_TransitionCratesHyperGlitch,1.1,可用,ok,,35
+ProductionCrate Transitions,Transition Hologram,PC_TransitionHologram,1.3,可用,ok,,28
+ProductionCrate Transitions,Transition VHS,PC_TransitionVHS,1.2,可用,ok,,16
+ProductionCrate Utility,Crates Unmult (Free),PC_CratesUnmult,1.1,可用,ok,,3
+ProductionCrate VFX,Crates Hologram,PC_CratesHologram,1.1,可用,ok,,25
+Prosya,Fog,prosya.aepr.fog,1.6.2x0,测试时带水印,wm,,45
+RE:Vision Plug-ins,DE:Noise,DE:Noise,3.5x0,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+RE:Vision Plug-ins,DE:Noise Frame Average,DE:Noise_FrameAverage,3.5x0,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+RE:Vision Plug-ins,DEFlicker Auto Levels,DE:Fluctuate,2.2.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+RE:Vision Plug-ins,DEFlicker High Speed,DE:Flicker,2.2.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+RE:Vision Plug-ins,DEFlicker Rolling Bands,DE:FlickerRollingBands,2.2.2x0,可用,ok,,34
+RE:Vision Plug-ins,DEFlicker Time Lapse,DEFlickerTimeLapse,2.2.2x0,可用,ok,,24
+RE:Vision Plug-ins,FieldsKit Deinterlacer,ReelSmart Deinterlacer,4.0.1x0,可用,ok,,13
+RE:Vision Plug-ins,FieldsKit Pulldown,ReelSmart Pulldown,4.0.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+RE:Vision Plug-ins,FieldsKit Reinterlacer,ReelSmart Reinterlacer,4.0.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+RE:Vision Plug-ins,Motion Vectors: Create,Create Motion Vectors 3.x,7.5.3x0,要先指定输入,input,,332
+RE:Vision Plug-ins,PV Feather,RFX Soft Edge Mask,1.8.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,16
+RE:Vision Plug-ins,RE:FILL Alpha,REFill Alpha,3.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+RE:Vision Plug-ins,RE:FILL Area Fill,ReFill AreaFill,3.0x0,可用,ok,,11
+RE:Vision Plug-ins,RE:FILL Choke,RE:FILL Choke,3.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+RE:Vision Plug-ins,RE:FILL Frame Borders,RE:Fill FrameBorder,3.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+RE:Vision Plug-ins,RE:FILL GrowShrink,RE:FILL GrowShrink,3.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+RE:Vision Plug-ins,RE:FILL Offset,RE:Fill Offset,3.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,17
+RE:Vision Plug-ins,RE:FILL Seamless Blend,RE:Fill Blend,3.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+RE:Vision Plug-ins,RE:Flex Morph,ReelSmart Morph2,5.5x0,可用,ok,默认参数下画面无变化，要调参数或换素材,280
+RE:Vision Plug-ins,RE:Flex Motion Morph,ReelSmart Moving Morph,5.5x0,要先指定输入,input,,28
+RE:Vision Plug-ins,RE:Flex Warp,ReelSmart Morph,5.5x0,可用,ok,默认参数下画面无变化，要调参数或换素材,21
+RE:Vision Plug-ins,RE:Grade Color Admin,HaldClutGen,1.3x0,可用,ok,,7
+RE:Vision Plug-ins,RE:Grade Contrast Enhance,GradeContrast,1.3x0,可用,ok,,41
+RE:Vision Plug-ins,RE:Grade Correct,ColorAwesome,1.3x0,可用,ok,,21
+RE:Vision Plug-ins,RE:Grade Fringes,RE:Match Defringe,1.3x0,可用,ok,,11
+RE:Vision Plug-ins,RE:Grade HDR Merge,ColorContrast,1.3x0,可用,ok,,8
+RE:Vision Plug-ins,RE:Grade Normalize,ColorNormalize,1.3x0,可用,ok,,14
+RE:Vision Plug-ins,RE:Lens Chromatic Aberration,RE:Lens Chromatic Aberration,2.4x0,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+RE:Vision Plug-ins,RE:Lens Curved Mirrors,RE:Lens +Mirrors,2.4x0,可用,ok,,28
+RE:Vision Plug-ins,RE:Lens From LatLong,RE:Lens FromLatLong,2.4x0,可用,ok,,39
+RE:Vision Plug-ins,RE:Lens Reframe,RE:Lens Reframe,2.4x0,可用,ok,默认参数下画面无变化，要调参数或换素材,29
+RE:Vision Plug-ins,RE:Lens Set Bounds,RE:Lens Set Bounds,2.4x0,可用,ok,默认参数下画面无变化，要调参数或换素材,8
+RE:Vision Plug-ins,RE:Lens Superfish,RE:Lens Other Cases,2.4x0,可用,ok,,48
+RE:Vision Plug-ins,RE:Lens To LatLong,RE:Lens ToLatLong,2.4x0,可用,ok,默认参数下画面无变化，要调参数或换素材,45
+RE:Vision Plug-ins,RE:Lens Ultra-Wide,RE:Lens Defish,2.4x0,可用,ok,,34
+RE:Vision Plug-ins,RE:Map Displace,RE:Map Displace,4.2x0,可用,ok,,32
+RE:Vision Plug-ins,RE:Map Distort,RE:Map Distort,4.2x0,可用,ok,,23
+RE:Vision Plug-ins,RE:Map Inverse UV,UV Inverse Mapper,4.2x0,要先指定输入,input,,22
+RE:Vision Plug-ins,RE:Map Planar,RE:Map Planar,4.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,27
+RE:Vision Plug-ins,RE:Map UV,UV Mapper Pete,4.2x0,要先指定输入,input,,23
+RE:Vision Plug-ins,RE:Match Basic,ColorUnmanaged,2.7.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,28
+RE:Vision Plug-ins,RE:Match Color,ColorSelective,2.7.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,45
+RE:Vision Plug-ins,RE:Match Stereo,ColorStereoMatch,2.7.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+RE:Vision Plug-ins,REZUP Enhance,REZUP,1.0.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,28
+RE:Vision Plug-ins,REZUP Resize,REZUPresize,1.0.1x0,可用,ok,,26
+RE:Vision Plug-ins,RSMB,Smart Motion Blur 3.x,6.4x0,可用,ok,,10
+RE:Vision Plug-ins,RSMB Pro,RS Motion Blur Pro A 3.x,6.4x0,可用,ok,默认参数下画面无变化，要调参数或换素材,317
+RE:Vision Plug-ins,RSMB Pro Vectors,RS Motion Blur Pro Vectors 3.x,6.4x0,要先指定输入,input,,10
+RE:Vision Plug-ins,SK Diffusion,SKSmoother,4.0.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,13
+RE:Vision Plug-ins,SK Directional Per Pixel,SKDirectional,4.0.2x0,可用,ok,,16
+RE:Vision Plug-ins,SK Directional With Splines,SK Directional Splines,4.0.2x0,可用,ok,,12
+RE:Vision Plug-ins,SK Frame Accumulate,SKFrameAccumulate,4.0.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+RE:Vision Plug-ins,SK Gaussian,SKGaussian,4.0.2x0,可用,ok,,7
+RE:Vision Plug-ins,SK Gaussian Per Pixel,SKGaussianPerPixel,4.0.2x0,可用,ok,,15
+RE:Vision Plug-ins,SK Sharpen,SKSharpen,4.0.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,10
+RE:Vision Plug-ins,SK Staircase Suppress,SKSmoothAliasing,4.0.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,7
+RE:Vision Plug-ins,SK ZBlur,SKZBlur,4.0.2x0,要先指定输入,input,,23
+RE:Vision Plug-ins,Shade Normals 5,Shade Normals,3.0x0,要先指定输入,input,,22
+RE:Vision Plug-ins,Shade Shape 5,SHAdE SHApE,3.0x0,可用,ok,,26
+RE:Vision Plug-ins,Twixtor,Twixtor 45 Lite,7.5.3x0,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+RE:Vision Plug-ins,Twixtor Pro,Twixtor 45,7.5.3x0,可用,ok,默认参数下画面无变化，要调参数或换素材,337
+RE:Vision Plug-ins,"Twixtor Pro, Vectors In",Twixtor 4 Vectors In,7.5.3x0,要先指定输入,input,,30
+RE:Vision Plug-ins,Video Gogh,Video Gogh,3.9.2x0,可用,ok,,7
+RE:Vision Plug-ins,Video Gogh Pro,Video Gogh 3,3.9.2x0,可用,ok,,44
+RG Blurs and Glows,Optical Glow,RG_VFX_OpticalGlow_AE,26.0,可用,ok,,22
+RG Blurs and Glows,Shine,tc Shine,26.0,可用,ok,,48
+RG Blurs and Glows,Starglow,tc Starglow,26.0,可用,ok,,52
+RG Blurs and Glows,uni.Blur,Universe_Blur_Blur_Premium,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+RG Blurs and Glows,uni.Bokeh,Universe_Blur_Box_Bokeh,26.0,可用,ok,,14
+RG Blurs and Glows,uni.Chromatic Glow,Universe_Glow_Chromatic_Glow,26.0,可用,ok,,41
+RG Blurs and Glows,uni.Compound Blur,Universe_Compound_Blur_Premium,26.0,可用,ok,,15
+RG Blurs and Glows,uni.Edge Glow,Universe_Glow_Edge_Glow_Premium,26.0,可用,ok,,10
+RG Blurs and Glows,uni.Glimmer,Universe_Glow_Glimmer,26.0,可用,ok,,79
+RG Blurs and Glows,uni.Glo Fi,Universe_Glow_Glo_Fi_Premium,26.0,可用,ok,,28
+RG Blurs and Glows,uni.Glo Fi II,Universe_Text_Glo_Fi_II,26.0,可用,ok,,23
+RG Blurs and Glows,uni.Glow,Universe_Glow_Glow,26.0,测试时带水印,wm,,45
+RG Blurs and Glows,uni.Point Zoom,Universe_Glow_Point_Zoom,26.0,可用,ok,,19
+RG Blurs and Glows,uni.Quantum,RG_UNI_Glow_Quantum,26.0,可用,ok,,50
+RG Blurs and Glows,uni.Spot Blur,Universe_Blur_Spot_Blur,26.0,可用,ok,,10
+RG Color,Colorista V,RG MB COLORISTA IV,26.0,可用（内容靠预设）,preset,内容参数：HSL、LUT、三路、曲线、输出LUT:；默认参数下画面无变化，要调参数或换素材,22
+RG Color,Cosmo II,RG Cosmo_II,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,14
+RG Color,Denoiser III,RG Denoiser3,26.0,可用,ok,,5
+RG Color,Film,Magic_Bullet_Suite_Magic_Bullet,26.0,可用,ok,,13
+RG Color,Magic Bullet Looks,MB LookSuite3,26.0,可用（内容靠预设）,preset,内容参数：外观,1
+RG Color,Mojo II,Magic_Bullet_Mojo_II,26.0,可用,ok,,16
+RG Color,Parametric Curve,RG_MB_ParamCurve_AE,26.0,可用（内容靠预设）,preset,内容参数：曲线；默认参数下画面无变化，要调参数或换素材,39
+RG Color,Renoiser,Magic_Bullet_Renoiser,26.0,可用,ok,,17
+RG Color,uni.Finisher,Universe_CrumplePop_Finisher,26.0,可用,ok,,8
+RG Color,uni.Grain16,Universe_CrumplePop_Grain16,26.0,可用,ok,,6
+RG Distortions,Chromatic Displacement,RG_VFX_ChromaDisp_AE,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+RG Distortions,uni.Chromatic Aberration,Universe_Distort_Chromatic_Aber,26.0,可用,ok,,37
+RG Distortions,uni.Heatwave,Universe_Distort_Heatwave,26.0,可用,ok,,26
+RG Distortions,uni.Prism Displacement,Universe_Distort_Prism_Displace,26.0,可用,ok,,22
+RG Distortions,uni.RGB Separation,Universe_Distort_RGB_Separation,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+RG Generators,uni.Custom Dither,Universe_Generators_Custom_Dith,26.0,可用（内容靠预设）,preset,内容参数：universe.palette.string_buffer,37
+RG Generators,uni.Fractal Background,Universe_Generators_Fractal_Bac,26.0,可用,ok,,33
+RG Generators,uni.Gradient Ramp,Universe_Generators_Gradient_Ra,26.0,可用,ok,,17
+RG Generators,uni.Soft Gradient Background,Universe_Generators_Soft_Gradie,26.0,可用,ok,,48
+RG Generators,uni.Spectralicious,Universe_Generators_Spectralici,26.0,可用,ok,,30
+RG Generators,uni.Texturize,Universe_Stylize_Texturize,26.0,可用,ok,,19
+RG Generators,uni.Texturize Motion,MX_UNI_Stylize_Texturize_Motion,26.0,可用,ok,,37
+RG Generators,uni.Turbulence Noise,Universe_Generators_TurNoise,26.0,可用,ok,,23
+RG Motion Graphics,3D Stroke,tc 3DStrokePath,26.0,可用（内容靠预设）,preset,内容参数：厚度映射路径、色彩渐变,75
+RG Motion Graphics,Echospace,tc Echospace,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,16
+RG Motion Graphics,uni.Array Gun,Universe_M_G_Array_Gun,26.0,可用,ok,,161
+RG Motion Graphics,uni.HUD Components,Universe_Visualizations_HUD_Com,26.0,可用,ok,,224
+RG Motion Graphics,uni.Line,Universe_Motion_Graphics_Draw_P,26.0,可用（内容靠预设）,preset,内容参数：Point 1 Font Style_CUSTOM、Point 1 Font Weight_CUSTOM、Point 1 Font_CUSTOM、Point 1 Text_CUSTOM、Point 2 Font Style_CUSTOM,90
+RG Motion Graphics,uni.Logo Motion,Universe_Utilities_Logo_Motion,26.0,可用,ok,,47
+RG Motion Graphics,uni.Progresso,Universe_M_G_Progresso,26.0,可用（内容靠预设）,preset,内容参数：Font Family_CUSTOM、Font Style_CUSTOM、Text_CUSTOM,95
+RG Motion Graphics,uni.Reframe,RG_UNI_M_G_Reframe,26.0,可用,ok,,29
+RG Motion Graphics,uni.Symbol Mapper,Universe_Stylize_Symbol_Mapper,26.0,可用,ok,,38
+RG Particles and 3D,Geo,Geo,26.0,可用,ok,,308
+RG Particles and 3D,Horizon,tc Trapcode Horizon,26.0,可用,ok,,46
+RG Particles and 3D,Lux,tc Lux,26.0,要先指定输入,input,,21
+RG Particles and 3D,Mir 3,rg Mir,26.0,可用,ok,,129
+RG Particles and 3D,Tao,tc Tao,26.0,可用,ok,,242
+RG Stylize,uni.AV Club,Universe_Text_AV_Club,26.0,可用,ok,,21
+RG Stylize,uni.Analog,RG_UNI_Stylize_Analog,26.0,要先指定输入,input,,67
+RG Stylize,uni.Carousel,Universe_Stylize_Carousel,26.0,可用,ok,,16
+RG Stylize,uni.ChromaTown,RG_UNI_Chromatown,26.0,要先指定输入,input,,38
+RG Stylize,uni.Ecto,Universe_Text_Ecto,26.0,可用,ok,,51
+RG Stylize,uni.Electrify,RG_UNI_Stylize_Electrify,26.0,可用,ok,,46
+RG Stylize,uni.Error Diffuse Dither,Universe_Stylize_Error_Diffuse_,26.0,可用（内容靠预设）,preset,内容参数：universe.palette.string_buffer,14
+RG Stylize,uni.Glitch,Universe_Stylize_Glitch,26.0,可用,ok,,29
+RG Stylize,uni.Halftone Dither,Universe_Stylize_Halftone_Dithe,26.0,可用,ok,,15
+RG Stylize,uni.Holomatrix II,Universe_Distort_Holomatrix,26.0,可用,ok,,223
+RG Stylize,uni.Knoll Light Factory EZ,Universe_Knoll_Light_Factory_EZ,26.0,可用,ok,,16
+RG Stylize,uni.Long Shadow,Universe_Text_Long_Shadow,26.0,可用,ok,,19
+RG Stylize,uni.Luster,Universe_Text_Luster,26.0,可用,ok,,45
+RG Stylize,uni.MisFire,Universe_Misfire_Premium,26.0,可用,ok,,65
+RG Stylize,uni.Multitone,RG_UNI_Stylize_Multitone,26.0,可用,ok,,7
+RG Stylize,uni.Noir,Universe_Stylize_Noir_Moderne,26.0,可用,ok,,9
+RG Stylize,uni.Ordered Dither,Universe_Stylize_Ordered_Dither,26.0,可用（内容靠预设）,preset,内容参数：universe.palette.string_buffer,23
+RG Stylize,uni.OverLight,Universe_CrumplePop_OverLight,26.0,可用,ok,,10
+RG Stylize,uni.RetroGrade,Universe_CrumplePop_RetroGrade,26.0,可用,ok,,21
+RG Stylize,uni.ShrinkRay,Universe_CrumplePop_ShrinkRay,26.0,可用,ok,,27
+RG Stylize,uni.Sketchify,Universe_Stylize_Sketchify,26.0,可用,ok,,17
+RG Stylize,uni.Threshold Dither,Universe_Stylize_Threshold_Dith,26.0,可用,ok,,7
+RG Stylize,uni.VHS,Universe_Stylize_VHS,26.0,要先指定输入,input,,63
+RG Text,uni.Hacker Text,Universe_Text_Hacker_Text,26.0,可用（内容靠预设）,preset,内容参数：Edit Custom Character_CUSTOM、Edit Custom Text_CUSTOM、Font Family Tgt_CUSTOM、Font Style Tgt_CUSTOM、Text Source_CUSTOM,57
+RG Text,uni.Numbers,Universe_Text_Numbers,26.0,可用（内容靠预设）,preset,内容参数：Edit Custom Text_CUSTOM、Font Family_CUSTOM、Font Style_CUSTOM,33
+RG Text,uni.Screen Text,Universe_Text_Screen_Text,26.0,可用（内容靠预设）,preset,内容参数：Font Family_CUSTOM、Font Style_CUSTOM、Text_CUSTOM,40
+RG Text,uni.Text Tile,Universe_Text_Text_Tile,26.0,要先指定输入,input,,913
+RG Text,uni.Title Motion,Universe_Utilities_Title_Motion,26.0,可用（内容靠预设）,preset,内容参数：Font1 Style_CUSTOM、Font1 Weight_CUSTOM、Font1_CUSTOM、Font2 Style_CUSTOM、Font2 Weight_CUSTOM,84
+RG Text,uni.Type Cast,Universe_Text_Type_Cast,26.0,可用（内容靠预设）,preset,内容参数：Font Family_CUSTOM、Font Style_CUSTOM、Text_CUSTOM,33
+RG Text,uni.Type On,Universe_Text_Type_On,26.0,可用（内容靠预设）,preset,内容参数：Font Family_CUSTOM、Font Style_CUSTOM、Text_CUSTOM,45
+RG Text,uni.Typographic,RG_UNI_Text_Typographic,26.0,可用（内容靠预设）,preset,内容参数：Line 1_CUSTOM、Line 2_CUSTOM、Text 1 Family_CUSTOM、Text 1 Style_CUSTOM、Text 2 Family_CUSTOM,189
+RG Transitions,uni.Blinds,Universe_Transitions_Blinds,26.0,要先指定输入,input,,35
+RG Transitions,uni.Bokeh Transition,Universe_Transitions_Bokeh,26.0,可用,ok,,8
+RG Transitions,uni.Camera Shake Transition,Universe_Transitions_Camera_Sha,26.0,可用,ok,,13
+RG Transitions,uni.Carousel Transition,Universe_Transitions_Carousel_T,26.0,可用,ok,,23
+RG Transitions,uni.Channel Blur,Universe_Transitions_Channel_Bl,26.0,可用,ok,,12
+RG Transitions,uni.Channel Surf,Universe_Transitions_Channel_Su,26.0,可用,ok,,21
+RG Transitions,uni.Clock Wipe,Universe_Transitions_Clock_Wipe,26.0,可用,ok,,9
+RG Transitions,uni.Color Mosaic Transition,Universe_Transitions_Color_Mosa,26.0,可用,ok,,19
+RG Transitions,uni.Color Stripe,Universe_Transitions_Color_Stri,26.0,可用,ok,,20
+RG Transitions,uni.Cube,Universe_Transitions_Cube,26.0,可用,ok,,34
+RG Transitions,uni.Diamond Wave,Universe_Transitions_Diamond_Wa,26.0,可用,ok,,35
+RG Transitions,uni.Dolly Fade,Universe_Transitions_Dolly_Fade,26.0,可用,ok,,9
+RG Transitions,uni.Exposure Blur,Universe_Exposure_Blur_Premium,26.0,可用,ok,,13
+RG Transitions,uni.Film Transition,Universe_Transitions_Film_Trans,26.0,可用,ok,,12
+RG Transitions,uni.Flicker Cut,Universe_Transitions_Flicker_Cu,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,15
+RG Transitions,uni.Fold,Universe_Transitions_Fold,26.0,可用,ok,,34
+RG Transitions,uni.Glitch Transition,Universe_Transitions_Glitch_Tra,26.0,可用,ok,,16
+RG Transitions,uni.HalfLight,Universe_Transitions_HalfLight,26.0,可用,ok,,11
+RG Transitions,uni.Inside Cube,Universe_Transitions_Inside_Cub,26.0,可用,ok,,34
+RG Transitions,uni.Knoll Light Transition,Universe_Transitions_Knoll_Ligh,26.0,可用,ok,,20
+RG Transitions,uni.Linear Wipe,Universe_Transitions_Linear_Wip,26.0,可用,ok,,17
+RG Transitions,uni.RetroGrade Transition,Universe_Transitions_RetroGrade,26.0,可用,ok,,24
+RG Transitions,uni.Rubix Cube,Universe_Transitions_Rubics_Cub,26.0,可用,ok,,35
+RG Transitions,uni.Shape Wipe,Universe_Transitions_Shape_Wipe,26.0,可用,ok,,23
+RG Transitions,uni.Slide,Universe_Transitions_Slide,26.0,可用,ok,,13
+RG Transitions,uni.Soft Edge Wipe,Universe_Soft_Edge_Wipe_Premium,26.0,可用,ok,,10
+RG Transitions,uni.Spectralicious Transition,Universe_Transitions_Spectralic,26.0,可用,ok,,12
+RG Transitions,uni.Stretch,RG_UNI_Transition_Stretch,26.0,可用,ok,,10
+RG Transitions,uni.Swish Pan,Universe_Swish_Pan_Premium,26.0,可用,ok,,9
+RG Transitions,uni.Triangle Wave,Universe_Transitions_Triangle_W,26.0,可用,ok,,35
+RG Transitions,uni.Turbulence Transition,Universe_Transitions_Turbulence,26.0,可用,ok,,10
+RG Transitions,uni.Unfold,Universe_Transitions_Unfold,26.0,可用,ok,,34
+RG Transitions,uni.VHS Transition,Universe_Transitions_VHS_Transi,26.0,可用,ok,,29
+RG Transitions,uni.Warp,RG_UNI_Transition_Warp,26.0,可用,ok,,19
+RG Trapcode,Form,tc Form,4.1.2,可用（内容靠预设）,preset,内容参数：BuilderData、CompAssetPairs、CompAssetPairs F2、CompAssetPairs F3、CompAssetPairs F4,2314
+RG Trapcode,Particular,tc Particular,4.1.5,可用（内容靠预设）,preset,内容参数：BuilderData、CompAssetPairs、CompAssetPairs S2、CompAssetPairs S3、CompAssetPairs S4,1638
+RG Utilities,Grow Bounds,Red Giant GrowBounds,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,1
+RG Utilities,Sound Keys,tc Sound Keys,26.0,可用（内容靠预设）,preset,内容参数：颜色贴图,49
+RG Utilities,uni.Camera Shake,Universe_Distort_Camera_Shake_P,26.0,可用,ok,,15
+RG Utilities,uni.Fisheye Fixer,Universe_CrumplePop_Fisheye_Fix,26.0,可用,ok,,3
+RG Utilities,uni.Modes,RG_UNI_Utilities_Modes,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,31
+RG Utilities,uni.Palettes,Universe_Utilities_Palettes,26.0,可用（内容靠预设）,preset,内容参数：universe.palette.string_buffer,7
+RG Utilities,uni.Picture in Picture,Universe_Distort_Picture_in_Pic,26.0,可用,ok,,19
+RG Utilities,uni.Socialize,RG_UNI_Utilities_Socialize,26.0,可用,ok,,13
+RG Utilities,uni.Unmult,Universe_Utilities_Unmult_Premi,26.0,可用,ok,,4
+RG VFX,Bang,rgBang,26.0,可用（内容靠预设）,preset,内容参数：扳机、花瓣形状轮廓、闪光形状轮廓,57
+RG VFX,King Pin Tracker,RG_KingPin_Tracker,26.0,可用,ok,默认参数下画面无变化，要调参数或换素材,46
+RG VFX,Lens Distortion Matcher,RG_Lens_Distortion,26.0,可用（内容靠预设）,preset,内容参数：Points、矫正、线条工具；默认参数下画面无变化，要调参数或换素材,18
+RG VFX,Primatte Keyer 6,Photron Primatte6,26.0,可用（内容靠预设）,preset,内容参数：定义键控；默认参数下画面无变化，要调参数或换素材,38
+RG VFX,Real Lens Flares,MX_Lens_Flare,26.0,可用（内容靠预设）,preset,内容参数：© Maxon 2022,26
+RG VFX,Reflection,rg.vfx.reflection,26.0,可用,ok,,45
+RG VFX,Shadow,rg.vfx.shadow,26.0,可用,ok,,49
+RG VFX,Spot Clone Tracker,RG_VFX_SpotClone_Tracker_AE,26.0,可用（内容靠预设）,preset,内容参数：聚光灯形状；默认参数下画面无变化，要调参数或换素材,34
+RG VFX,Supercomp,RG_VFX_Supernova_AE,26.0x0,要先指定输入,input,,150
+RM,Diopter,ADBE RM Plug-in,1.0.6x1,要先指定输入,input,,42
+Red Giant Psunami,Psunami,Atomic_TSunami_01,1.4.8,可用,ok,,100
+Red Giant Text Anarchy,Cool Text,Digital Anarchy Cool Text,2.4.7,加上时弹窗,dialog,,104
+Red Giant Text Anarchy,Font Changer,Digital Anarchy Font Changer,2.4.7,要先指定输入,input,,29
+Red Giant Text Anarchy,Gradient,DGE Gradient,2.4.7,要先指定输入,input,,36
+Red Giant Text Anarchy,Gradient Path,DA_GRADIENTPATH,2.4.7,要先指定输入,input,,74
+Red Giant Text Anarchy,GridLines,DGE GridLine,2.4.7,要先指定输入,input,,57
+Red Giant Text Anarchy,GridSquares,DGE GridSquare,2.4.7,要先指定输入,input,,84
+Red Giant Text Anarchy,Hairlines,DGE Hairline,2.4.7,要先指定输入,input,,53
+Red Giant Text Anarchy,Path Distort,DA_PATHDISTORT,2.4.7,要先指定输入,input,,12
+Red Giant Text Anarchy,Screen Text,Digital Anarchy Screen Text,2.4.7,加上时弹窗,dialog,,45
+Red Giant Text Anarchy,Smooth Tiler,DA_SMOOTHTILER,2.4.7,要先指定输入,input,,25
+Red Giant Text Anarchy,Text Grid,Digital Anarchy Text Grid,2.4.7,要先指定输入,input,,49
+Red Giant Text Anarchy,Text Hacker,Digital Anarchy Text Hacker,2.4.7,加上时弹窗,dialog,,41
+Red Giant Text Anarchy,Text Matrix,Digital Anarchy Text Matrix,2.4.7,加上时弹窗,dialog,,49
+Red Giant Text Anarchy,Text Spiral,Digital Anarchy Text Spiral,2.4.7,要先指定输入,input,,51
+Red Giant Text Anarchy,Type On,Digital Anarchy Type On,2.4.7,要先指定输入,input,,30
+Red Giant ToonIt,ToonIt! Blacklight Edges,Digital Anarchy ToonIt! Blackli,2.1.7,可用,ok,,13
+Red Giant ToonIt,ToonIt! Goth,Digital Anarchy ToonIt! Goth,2.1.7,可用,ok,,15
+Red Giant ToonIt,ToonIt! Heat Vision,Digital Anarchy ToonIt! Heat,2.1.7,可用,ok,,9
+Red Giant ToonIt,ToonIt! Outlines Only,Digital Anarchy ToonIt! Outline,2.1.7,可用,ok,,62
+Red Giant ToonIt,ToonIt! Roto Toon,Digital Anarchy ToonIt! Roto To,2.1.7,可用,ok,,117
+Red Giant Warp,RG Corner Pin,rg CornerPin,1.1.7,可用,ok,,48
+Red Giant Warp,RG Reflection,rg Reflect,1.1.7,可用,ok,,36
+Red Giant Warp,RG Shadow,rg RealShadows,1.1.7,可用,ok,默认参数下画面无变化，要调参数或换素材,40
+Red Giant Warp,Radium Glow,rg Glow,1.1.7,可用,ok,,24
+Red Giant Warp,Radium Glow Edge,rg GlowEdge,1.1.7,可用,ok,,24
+Red Giant Warp,Radium Glow Lite,rg GlowLite,1.1.7,可用,ok,,10
+Rowbyte,Aura,RWB AURA,1.2.6,可用（内容靠预设）,preset,内容参数：Color Gradient、Layer(s) name begins with、Scale Over Time、Spin Factor Over Time、Thickness Over Time,65
+Rowbyte,Bad TV,GUTS BadTV,2.7.5,可用,ok,,14
+Rowbyte,Color Wiggle,RWB ColorWiggle,1.2.1,要先指定输入,input,,105
+Rowbyte,Data Glitch,RWB DATA GLITCH,2.7.5,可用,ok,,28
+Rowbyte,Dot Pixels,RWB DOT PIXELS,2.7.5,可用,ok,,9
+Rowbyte,Fast Bokeh,RWB Fast Bokeh,2.1.3,可用,ok,默认参数下画面无变化，要调参数或换素材,31
+Rowbyte,Plexus,RWB PLEXUS TWO,3.2.10,可用（内容靠预设）,preset,内容参数：灯光名字开始于,21
+Rowbyte,Separate RGB,GUTS SEPRGB,2.7.5,可用,ok,,26
+Rowbyte,Stipple,RWB Stipple,1.0.3x1,可用（内容靠预设）,preset,内容参数：Color Frame Arb、Gradient,34
+Rowbyte,TVPixel,RWB TV PIXEL,2.7.5,可用,ok,,10
+Sapphire 光照,S_3D灯光,S_Light3D,19.0x1,可用,ok,,61
+Sapphire 光照,S_Z辉光,S_ZGlow,19.0x1,可用,ok,,33
+Sapphire 光照,S_仿真镜头眩光,S_LensFlareAutoTrack,19.0x1,可用（内容靠预设）,preset,内容参数：flare,80
+Sapphire 光照,S_光斑,S_Glint,19.0x1,可用,ok,,46
+Sapphire 光照,S_射光,S_Rays,19.0x1,可用,ok,,58
+Sapphire 光照,S_彩色光环,S_GlowRings,19.0x1,可用,ok,,42
+Sapphire 光照,S_条纹,S_Streaks,19.0x1,可用,ok,,45
+Sapphire 光照,S_条纹光斑,S_GlowAura,19.0x1,可用,ok,,46
+Sapphire 光照,S_正交发光,S_GlowOrthicon,19.0x1,可用,ok,,34
+Sapphire 光照,S_炫光光晕,S_LightLeak,19.0x1,可用,ok,,90
+Sapphire 光照,S_眩光,S_Glare,19.0x1,可用（内容靠预设）,preset,内容参数：flare,43
+Sapphire 光照,S_聚光灯,S_SpotLight,19.0x1,可用,ok,,58
+Sapphire 光照,S_色散透射,S_GlowRainbow,19.0x1,可用,ok,,42
+Sapphire 光照,S_虹色星光效果,S_GlintRainbow,19.0x1,可用,ok,,46
+Sapphire 光照,S_超级辉光,S_UltraGlow,19.0x1,可用,ok,,78
+Sapphire 光照,S_辉光,S_Glow,19.0x1,可用,ok,,45
+Sapphire 光照,S_辉光噪点,S_GlowNoise,19.0x1,可用,ok,,50
+Sapphire 光照,S_边缘光线,S_EdgeRays,19.0x1,可用,ok,,57
+Sapphire 光照,S_边缘辉光,S_GlowEdges,19.0x1,可用,ok,,40
+Sapphire 光照,S_透射辉光,S_GlowDist,19.0x1,可用,ok,,35
+Sapphire 光照,S_镜头光斑,S_BokehLights,19.0x1,可用,ok,,56
+Sapphire 光照,S_镜头光晕,S_LensFlare,19.0x1,可用（内容靠预设）,preset,内容参数：Hotspots、flare,101
+Sapphire 光照,S_闪光灯记忆,S_Flashbulbs,19.0x1,可用（内容靠预设）,preset,内容参数：flare,34
+Sapphire 光照,S_阴影,S_DropShadow,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,28
+Sapphire 光照,S_黑暗辉光,S_GlowDarks,19.0x1,可用,ok,,36
+Sapphire 创建,S_变换,S_Transition,19.0x1,可用（内容靠预设）,preset,内容参数：Preset、flare、string,1446
+Sapphire 创建,S_效果,S_Effect,19.0x1,可用（内容靠预设）,preset,内容参数：Preset、flare、string；默认参数下画面无变化，要调参数或换素材,1458
+Sapphire 变形,S_RGB变形,S_DistortRGB,19.0x1,可用,ok,,35
+Sapphire 变形,S_变形,S_Distort,19.0x1,可用,ok,,35
+Sapphire 变形,S_噪波变形,S_WarpBubble,19.0x1,可用,ok,,37
+Sapphire 变形,S_噪波变形2,S_WarpBubble2,19.0x1,可用,ok,,43
+Sapphire 变形,S_四角变形,S_WarpCornerPin,19.0x1,可用,ok,,21
+Sapphire 变形,S_夸张变形,S_WarpMagnify,19.0x1,可用,ok,,40
+Sapphire 变形,S_抖动,S_Shake,19.0x1,可用,ok,,66
+Sapphire 变形,S_拉伸边缘,S_StretchFrameEdges,19.0x1,可用,ok,,6
+Sapphire 变形,S_无限放大,S_InfiniteZoom,19.0x1,可用,ok,,29
+Sapphire 变形,S_极点变形,S_WarpPolar,19.0x1,可用,ok,,37
+Sapphire 变形,S_模糊变形,S_DistortBlur,19.0x1,可用,ok,,33
+Sapphire 变形,S_水波纹,S_WarpDrops,19.0x1,可用,ok,,44
+Sapphire 变形,S_波浪变形,S_WarpWaves,19.0x1,可用,ok,,33
+Sapphire 变形,S_波浪变形2,S_WarpWaves2,19.0x1,可用,ok,,39
+Sapphire 变形,S_波纹效果,S_WarpPuddle,19.0x1,可用,ok,,43
+Sapphire 变形,S_液化变形,S_WarpPuff,19.0x1,可用,ok,,30
+Sapphire 变形,S_漩涡变形,S_WarpVortex,19.0x1,可用,ok,,32
+Sapphire 变形,S_线性综合变形,S_WarpTransform,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,39
+Sapphire 变形,S_色散变形,S_DistortChroma,19.0x1,可用,ok,,39
+Sapphire 变形,S_色相变形,S_WarpChroma,19.0x1,可用,ok,,48
+Sapphire 变形,S_视差条纹,S_ParallaxStrips,19.0x1,可用,ok,,41
+Sapphire 变形,S_透视变形,S_WarpPerspective,19.0x1,可用,ok,,37
+Sapphire 变形,S_重复扭曲,S_WarpRepeat,19.0x1,可用,ok,,44
+Sapphire 变形,S_鱼眼变形,S_WarpFishEye,19.0x1,可用,ok,,32
+Sapphire 合成,S_Z合成,S_ZComp,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+Sapphire 合成,S_图层,S_Layer,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,38
+Sapphire 合成,S_层混合,S_MathOps,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,31
+Sapphire 合成,S_边缘噪声,S_MatteOps,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,30
+Sapphire 合成,S_边缘闪光,S_EdgeFlash,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,58
+Sapphire 合成,S_通道噪声合成,S_MatteOpsComp,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,32
+Sapphire 时间,S_RGB色偏移,S_TimeWarpRGB,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+Sapphire 时间,S_修复坏帧,S_RepairFrames,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,3
+Sapphire 时间,S_冻结帧,S_FreezeFrame,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,20
+Sapphire 时间,S_切割溶解,S_CutToDissolve,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+Sapphire 时间,S_匹配闪烁颜色,S_FlickerMatchColor,19.0x1,要先指定输入,input,,6
+Sapphire 时间,S_去场,S_FieldRemove,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,26
+Sapphire 时间,S_去除色彩闪烁,S_FlickerRemoveColor,19.0x1,可用,ok,,5
+Sapphire 时间,S_反序播放,S_ReverseEdits,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,23
+Sapphire 时间,S_同步闪烁,S_FlickerMatch,19.0x1,要先指定输入,input,,6
+Sapphire 时间,S_帧乱序播放,S_RandomEdits,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,20
+Sapphire 时间,S_帧切分,S_TimeSlice,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+Sapphire 时间,S_帧反序播放,S_ReverseClip,19.0x1,可用,ok,,20
+Sapphire 时间,S_帧变化检测,S_MotionDetect,19.0x1,要先指定输入,input,,26
+Sapphire 时间,S_延迟回馈,S_Feedback,19.0x1,可用,ok,,40
+Sapphire 时间,S_延迟回馈变形,S_FeedbackDistort,19.0x1,可用,ok,,44
+Sapphire 时间,S_延迟回馈跳动,S_FeedbackBubble,19.0x1,可用,ok,,49
+Sapphire 时间,S_扩散追迹,S_TrailsDiffuse,19.0x1,可用,ok,,31
+Sapphire 时间,S_指定区域去色彩闪烁,S_FlickerRmMatteColor,19.0x1,可用,ok,,19
+Sapphire 时间,S_指定区域去闪烁,S_FlickerRemoveMatte,19.0x1,可用,ok,,19
+Sapphire 时间,S_指定区域同步闪烁,S_FlickerMatchMatte,19.0x1,要先指定输入,input,,7
+Sapphire 时间,S_指定区域同步颜色闪烁,S_FlickerMchMatteColor,19.0x1,要先指定输入,input,,7
+Sapphire 时间,S_时间位移置换,S_TimeDisplace,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,22
+Sapphire 时间,S_检测指定色彩,S_NearestColor,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,4
+Sapphire 时间,S_消除闪烁,S_FlickerRemove,19.0x1,可用,ok,,5
+Sapphire 时间,S_追迹,S_Trails,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,29
+Sapphire 时间,S_追迹效果,S_TimeAverage,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,21
+Sapphire 时间,S_重定时,S_Retime,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,19
+Sapphire 时间,S_闪烁,S_Flicker,19.0x1,可用,ok,,14
+Sapphire 时间,S_随机抽帧,S_JitterFrames,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,21
+Sapphire 时间,S_静帧效果,S_GetFrame,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,21
+Sapphire 模糊+锐化,S_Z散焦,S_ZDefocus,19.0x1,可用,ok,,33
+Sapphire 模糊+锐化,S_Z缠绕,S_ZConvolve,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,35
+Sapphire 模糊+锐化,S_中值,S_Median,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,31
+Sapphire 模糊+锐化,S_变形运动模糊,S_BlurMoCurves,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,40
+Sapphire 模糊+锐化,S_嘈杂,S_Deband,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,26
+Sapphire 模糊+锐化,S_域运动模糊,S_BlurMotion,19.0x1,可用,ok,,44
+Sapphire 模糊+锐化,S_快速降噪,S_GrainRemove,19.0x1,可用,ok,,25
+Sapphire 模糊+锐化,S_方向模糊,S_BlurDirectional,19.0x1,可用,ok,,36
+Sapphire 模糊+锐化,S_景深,S_ZBlur,19.0x1,可用,ok,,19
+Sapphire 模糊+锐化,S_柔焦效果,S_SoftFocus,19.0x1,可用,ok,,28
+Sapphire 模糊+锐化,S_模糊,S_Blur,19.0x1,可用,ok,,30
+Sapphire 模糊+锐化,S_缠绕,S_Convolve,19.0x1,可用,ok,,29
+Sapphire 模糊+锐化,S_缠绕合成,S_ConvolveComp,19.0x1,可用,ok,,52
+Sapphire 模糊+锐化,S_美颜,S_Beauty,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,56
+Sapphire 模糊+锐化,S_自由透镜,S_FreeLens,19.0x1,可用,ok,,110
+Sapphire 模糊+锐化,S_色度模糊,S_BlurChroma,19.0x1,可用,ok,,30
+Sapphire 模糊+锐化,S_色散虚焦模糊,S_DefocusPrism,19.0x1,可用,ok,,43
+Sapphire 模糊+锐化,S_虚焦合成,S_RackDfComp,19.0x1,可用,ok,,30
+Sapphire 模糊+锐化,S_虚焦模糊,S_RackDefocus,19.0x1,可用,ok,,43
+Sapphire 模糊+锐化,S_边缘感知模糊,S_EdgeAwareBlur,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,29
+Sapphire 模糊+锐化,S_边缘模糊,S_EdgeBlur,19.0x1,可用,ok,,22
+Sapphire 模糊+锐化,S_通道模糊,S_BlurChannels,19.0x1,可用,ok,,40
+Sapphire 模糊+锐化,S_锐化,S_Sharpen,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,34
+Sapphire 渲染,S_云,S_Clouds,19.0x1,可用,ok,,36
+Sapphire 渲染,S_云涡,S_CloudsVortex,19.0x1,可用,ok,,41
+Sapphire 渲染,S_全彩色云纹理,S_CloudsColorSmooth,19.0x1,可用,ok,,33
+Sapphire 渲染,S_分叉,S_ZapTo,19.0x1,可用,ok,,62
+Sapphire 渲染,S_多重渐变,S_GradientMulti,19.0x1,可用,ok,,54
+Sapphire 渲染,S_夜空,S_NightSky,19.0x1,可用（内容靠预设）,preset,内容参数：flare,61
+Sapphire 渲染,S_形状,S_Shape,19.0x1,要先指定输入,input,,42
+Sapphire 渲染,S_彩色星光镜,S_SparklesColor,19.0x1,可用,ok,,46
+Sapphire 渲染,S_彩色螺旋纹理,S_TextureChromaSpiral,19.0x1,可用,ok,,34
+Sapphire 渲染,S_径向渐变,S_GradientRadial,19.0x1,可用,ok,,37
+Sapphire 渲染,S_微观纹理,S_TextureMicro,19.0x1,可用,ok,,36
+Sapphire 渲染,S_摩尔纹,S_TextureMoire,19.0x1,可用,ok,,51
+Sapphire 渲染,S_放射电,S_ZapFrom,19.0x1,可用,ok,,61
+Sapphire 渲染,S_星光镜,S_Sparkles,19.0x1,可用,ok,,45
+Sapphire 渲染,S_月球,S_Luna,19.0x1,可用,ok,,59
+Sapphire 渲染,S_极光,S_Aurora,19.0x1,可用,ok,,69
+Sapphire 渲染,S_枪火,S_MuzzleFlash,19.0x1,可用,ok,,59
+Sapphire 渲染,S_水彩笔触噪波,S_TextureNoisePaint,19.0x1,可用,ok,,38
+Sapphire 渲染,S_污渍,S_Grunge,19.0x1,可用,ok,,90
+Sapphire 渲染,S_流体纹理,S_TextureFlux,19.0x1,可用,ok,,38
+Sapphire 渲染,S_浮雕噪声纹理,S_TextureNoiseEmboss,19.0x1,可用,ok,,37
+Sapphire 渲染,S_渐变,S_Gradient,19.0x1,可用,ok,,32
+Sapphire 渲染,S_激光束,S_LaserBeam,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,53
+Sapphire 渲染,S_灰尘,S_Dust,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,57
+Sapphire 渲染,S_点状噪波,S_TextureSpots,19.0x1,可用,ok,,37
+Sapphire 渲染,S_焦散,S_Caustics,19.0x1,可用,ok,,37
+Sapphire 渲染,S_瓷砖纹理,S_TextureTiles,19.0x1,可用,ok,,46
+Sapphire 渲染,S_电离噪波,S_TexturePlasma,19.0x1,可用,ok,,41
+Sapphire 渲染,S_神经元纹理,S_TextureNeurons,19.0x1,可用,ok,,48
+Sapphire 渲染,S_纹理循环,S_TextureLoops,19.0x1,可用,ok,,51
+Sapphire 渲染,S_细胞纹理,S_TextureCells,19.0x1,可用,ok,,33
+Sapphire 渲染,S_编织物,S_TextureWeave,19.0x1,可用,ok,,40
+Sapphire 渲染,S_网格,S_Grid,19.0x1,可用,ok,,43
+Sapphire 渲染,S_色散噪波,S_CloudsPsyko,19.0x1,可用,ok,,42
+Sapphire 渲染,S_褶皱纹理,S_TextureFolded,19.0x1,可用,ok,,38
+Sapphire 渲染,S_超级电光,S_UltraZap,19.0x1,可用,ok,,134
+Sapphire 渲染,S_透视云层,S_CloudsPerspective,19.0x1,可用,ok,,41
+Sapphire 渲染,S_颜色噪声云,S_CloudsMultColor,19.0x1,可用,ok,,41
+Sapphire 渲染,S闪电,S_Zap,19.0x1,可用,ok,,87
+Sapphire 调节,S_OCIO转换,S_OCIOTransform,19.0x1,可用（内容靠预设）,preset,内容参数：string；默认参数下画面无变化，要调参数或换素材,22
+Sapphire 调节,S_三色调,S_TriTone,19.0x1,可用,ok,,28
+Sapphire 调节,S_伽马,S_Gamma,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,34
+Sapphire 调节,S_双色,S_DuoTone,19.0x1,可用,ok,,24
+Sapphire 调节,S_反转,S_Invert,19.0x1,可用,ok,,30
+Sapphire 调节,S_四色调,S_QuadTone,19.0x1,可用,ok,,31
+Sapphire 调节,S_显示超出色,S_ShowBadColors,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+Sapphire 调节,S_灰度化,S_Monochrome,19.0x1,可用,ok,,23
+Sapphire 调节,S_着色,S_Tint,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,23
+Sapphire 调节,S_色亮饱调整,S_ClampChroma,19.0x1,可用,ok,,22
+Sapphire 调节,S_色相饱和明度,S_HueSatBright,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,24
+Sapphire 调节,S_通道切换,S_ChannelSwitcher,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,32
+Sapphire 调节,S_阈值,S_Threshold,19.0x1,可用,ok,,25
+Sapphire 调节,S_高亮调整,S_Hotspots,19.0x1,可用,ok,,24
+Sapphire 转场,S_2D摆动,S_WhipLash,19.0x1,可用,ok,,32
+Sapphire 转场,S_3D摆动,S_Swish3D,19.0x1,可用,ok,,44
+Sapphire 转场,S_MochaWhip,S_MochaWhip,19.0x1,可用,ok,,69
+Sapphire 转场,S_TV通道变换,S_TVChannelChange,19.0x1,要先指定输入,input,,38
+Sapphire 转场,S_不规则点划像,S_WipePointalize,19.0x1,可用,ok,,13
+Sapphire 转场,S_云雾转场,S_WipeClouds,19.0x1,可用,ok,,16
+Sapphire 转场,S_亮度溶解,S_DissolveLuma,19.0x1,可用,ok,,9
+Sapphire 转场,S_像素块划像,S_WipePixelate,19.0x1,可用,ok,,11
+Sapphire 转场,S_像素排列溶解,S_DissolvePixelSort,19.0x1,可用,ok,,30
+Sapphire 转场,S_光泄漏溶解,S_DissolveLightLeak,19.0x1,要先指定输入,input,,83
+Sapphire 转场,S_光线溶解,S_DissolveRays,19.0x1,可用,ok,,44
+Sapphire 转场,S_卡片翻转,S_CardFlip,19.0x1,可用,ok,,20
+Sapphire 转场,S_双楔形划像,S_WipeDoubleWedge,19.0x1,可用,ok,,25
+Sapphire 转场,S_发光溶解,S_DissolveGlow,19.0x1,可用,ok,,24
+Sapphire 转场,S_变形溶解,S_DissolveDistort,19.0x1,可用,ok,,15
+Sapphire 转场,S_可控斑点溶解,S_DissolveSpeckle,19.0x1,可用,ok,,10
+Sapphire 转场,S_四楔形划像,S_WipeFourWedges,19.0x1,可用,ok,,25
+Sapphire 转场,S_圆形划像,S_WipeCircle,19.0x1,可用,ok,,26
+Sapphire 转场,S_强光溶解,S_DissolveGlare,19.0x1,可用（内容靠预设）,preset,内容参数：flare,25
+Sapphire 转场,S_快速平移,S_SwishPan,19.0x1,可用,ok,,11
+Sapphire 转场,S_扩散划像,S_WipeDiffuse,19.0x1,可用,ok,,14
+Sapphire 转场,S_扩散溶解,S_DissolveDiffuse,19.0x1,可用,ok,,14
+Sapphire 转场,S_抖动溶解,S_DissolveShake,19.0x1,可用,ok,,41
+Sapphire 转场,S_拉溶解,S_HyperPull,19.0x1,可用,ok,,44
+Sapphire 转场,S_推溶解,S_HyperPush,19.0x1,可用,ok,,44
+Sapphire 转场,S_数字损坏溶解,S_DissolveDigitalDamage,19.0x1,可用,ok,,60
+Sapphire 转场,S_时钟过渡,S_WipeClock,19.0x1,可用,ok,,26
+Sapphire 转场,S_明亮闪光溶解,S_DissolveGlintRainbow,19.0x1,可用,ok,,35
+Sapphire 转场,S_星形划像,S_WipeStar,19.0x1,可用,ok,,29
+Sapphire 转场,S_条带滑动过渡,S_StripSlideTransition,19.0x1,可用,ok,,20
+Sapphire 转场,S_条纹划像,S_WipeStripes,19.0x1,可用,ok,,27
+Sapphire 转场,S_棋盘格划像,S_WipeChecker,19.0x1,可用,ok,,30
+Sapphire 转场,S_楔形划像,S_WipeWedge,19.0x1,可用,ok,,25
+Sapphire 转场,S_模糊溶解,S_DissolveBlur,19.0x1,可用,ok,,11
+Sapphire 转场,S_气泡转场,S_WipeBlobs,19.0x1,可用,ok,,29
+Sapphire 转场,S_水波纹溶解,S_DissolvePuddle,19.0x1,可用,ok,,31
+Sapphire 转场,S_波浪溶解,S_DissolveWaves,19.0x1,可用,ok,,21
+Sapphire 转场,S_浆状划像,S_WipePlasma,19.0x1,可用,ok,,34
+Sapphire 转场,S_液化划像,S_WipeBubble,19.0x1,可用,ok,,19
+Sapphire 转场,S_液化溶解,S_DissolveBubble,19.0x1,可用,ok,,20
+Sapphire 转场,S_溶解,S_Dissolve,19.0x1,可用,ok,,7
+Sapphire 转场,S_溶解像素狂欢,S_DissolvePixelMosh,19.0x1,可用,ok,,33
+Sapphire 转场,S_溶解超亮,S_DissolveUltraGlow,19.0x1,要先指定输入,input,,42
+Sapphire 转场,S_漩涡溶解,S_DissolveVortex,19.0x1,可用,ok,,19
+Sapphire 转场,S_点阵划像,S_WipeDots,19.0x1,可用,ok,,30
+Sapphire 转场,S_环形划像,S_WipeRings,19.0x1,可用,ok,,31
+Sapphire 转场,S_瓦块溶解,S_DissolveTiles,19.0x1,可用,ok,,22
+Sapphire 转场,S_电影滚动,S_FilmRoll,19.0x1,可用,ok,,83
+Sapphire 转场,S_矩形划像,S_WipeRectangle,19.0x1,可用,ok,,27
+Sapphire 转场,S_线性划像,S_WipeLine,19.0x1,可用,ok,,23
+Sapphire 转场,S_线条扫描,S_WipeMoire,19.0x1,可用,ok,,37
+Sapphire 转场,S_细胞过渡,S_WipeCells,19.0x1,可用,ok,,29
+Sapphire 转场,S_编织划像,S_WipeWeave,19.0x1,可用,ok,,32
+Sapphire 转场,S_胶片溶解,S_DissolveFilm,19.0x1,可用,ok,,6
+Sapphire 转场,S_胶片燃烧过渡,S_FilmBurnTransition,19.0x1,可用,ok,,179
+Sapphire 转场,S_自动画笔溶解,S_DissolveAutoPaint,19.0x1,可用,ok,,16
+Sapphire 转场,S_菱形划像,S_WipeTiles,19.0x1,可用,ok,,32
+Sapphire 转场,S_虚焦溶解,S_DissolveDefocus,19.0x1,可用,ok,,24
+Sapphire 转场,S_视差条纹转场,S_ParallaxStripsTransition,19.0x1,可用,ok,,26
+Sapphire 转场,S_边缘发光溶解,S_DissolveEdgeRays,19.0x1,可用,ok,,44
+Sapphire 转场,S_通量擦除,S_WipeFlux,19.0x1,可用,ok,,35
+Sapphire 转场,S_镜头光晕溶解,S_DissolveLensFlare,19.0x1,可用（内容靠预设）,preset,内容参数：flare,44
+Sapphire 转场,S_闪光灯溶解,S_DissolveFlashbulbs,19.0x1,可用（内容靠预设）,preset,内容参数：flare,20
+Sapphire 转场,S_闪烁溶解,S_DissolveGlint,19.0x1,可用,ok,,35
+Sapphire 转场,S_闪电溶解,S_DissolveZap,19.0x1,可用,ok,,28
+Sapphire 转场,S_随机像素溶解,S_DissolveStatic,19.0x1,可用,ok,,4
+Sapphire 转场,S_颤动切割,S_FlutterCut,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,17
+Sapphire 风格化,S_VHS损坏,S_VHSDamage,19.0x1,可用,ok,,104
+Sapphire 风格化,S_万花筒,S_Kaleido,19.0x1,可用,ok,,36
+Sapphire 风格化,S_交叉线,S_Crosshatch,19.0x1,可用,ok,,56
+Sapphire 风格化,S_像素排列,S_PixelSort,19.0x1,可用,ok,,46
+Sapphire 风格化,S_像素狂欢,S_PixelMosh,19.0x1,可用,ok,默认参数下画面无变化，要调参数或换素材,46
+Sapphire 风格化,S_六角形复眼,S_FlysEyeHex,19.0x1,可用,ok,,35
+Sapphire 风格化,S_卡通,S_Cartoon,19.0x1,可用,ok,,35
+Sapphire 风格化,S_卡通画笔,S_CartoonPaint,19.0x1,可用,ok,,39
+Sapphire 风格化,S_印刷,S_Etching,19.0x1,可用,ok,,39
+Sapphire 风格化,S_双色点阵,S_HalfTone,19.0x1,可用,ok,,30
+Sapphire 风格化,S_双色环形纹理,S_HalfToneRings,19.0x1,可用,ok,,32
+Sapphire 风格化,S_双重边缘突出,S_EdgeDetectDouble,19.0x1,可用,ok,,28
+Sapphire 风格化,S_反光浮雕,S_EmbossShiny,19.0x1,可用,ok,,34
+Sapphire 风格化,S_变形浮雕,S_EmbossDistort,19.0x1,可用,ok,,38
+Sapphire 风格化,S_噪点,S_Grain,19.0x1,可用,ok,,30
+Sapphire 风格化,S_图像损失,S_JpegDamage,19.0x1,可用,ok,,39
+Sapphire 风格化,S_圆形万花筒,S_KaleidoPolar,19.0x1,可用,ok,,33
+Sapphire 风格化,S_圆形复眼,S_FlysEyeCircles,19.0x1,可用,ok,,36
+Sapphire 风格化,S_坏电视,S_TVDamage,19.0x1,可用,ok,,89
+Sapphire 风格化,S_复古色2条,S_VintageColor2Strip,19.0x1,可用,ok,,29
+Sapphire 风格化,S_复古色3条,S_VintageColor3Strip,19.0x1,可用,ok,,27
+Sapphire 风格化,S_带状滑块,S_StripSlide,19.0x1,可用,ok,,30
+Sapphire 风格化,S_底片,S_Zebrafy,19.0x1,可用,ok,,29
+Sapphire 风格化,S_彩色点阵,S_HalfToneColor,19.0x1,可用,ok,,35
+Sapphire 风格化,S_手绘,S_Sketch,19.0x1,可用,ok,,29
+Sapphire 风格化,S_扫描线,S_ScanLines,19.0x1,可用,ok,,35
+Sapphire 风格化,S_扫描线黑白,S_ScanLinesMono,19.0x1,可用,ok,,32
+Sapphire 风格化,S_指数增长蒙雾,S_ZFogExponential,19.0x1,可用,ok,,5
+Sapphire 风格化,S_放射状万花筒,S_KaleidoRadial,19.0x1,可用,ok,,35
+Sapphire 风格化,S_放射线,S_BandPass,19.0x1,可用,ok,,28
+Sapphire 风格化,S_数字损坏,S_DigitalDamage,19.0x1,可用,ok,,71
+Sapphire 风格化,S_方向性边缘突出,S_EdgesInDirection,19.0x1,可用,ok,,27
+Sapphire 风格化,S_方块拼凑,S_TileScramble,19.0x1,可用,ok,,38
+Sapphire 风格化,S_暗角,S_Vignette,19.0x1,可用,ok,,30
+Sapphire 风格化,S_条纹油渍,S_PsykoStripes,19.0x1,可用,ok,,40
+Sapphire 风格化,S_棱镜,S_PrismLens,19.0x1,可用（内容靠预设）,preset,内容参数：flare,113
+Sapphire 风格化,S_棱镜浮雕,S_EmbossGlass,19.0x1,可用,ok,,41
+Sapphire 风格化,S_水面油渍,S_PsykoBlobs,19.0x1,可用,ok,,43
+Sapphire 风格化,S_油漆效果,S_AutoPaint,19.0x1,可用,ok,,29
+Sapphire 风格化,S_浮雕,S_Emboss,19.0x1,可用,ok,,32
+Sapphire 风格化,S_漂白旁路,S_BleachBypass,19.0x1,可用,ok,,38
+Sapphire 风格化,S_漫反射,S_Diffuse,19.0x1,可用,ok,,28
+Sapphire 风格化,S_热成像,S_PseudoColor,19.0x1,可用,ok,,25
+Sapphire 风格化,S_犬视觉,S_DogVision,19.0x1,可用,ok,,30
+Sapphire 风格化,S_瓷砖,S_RomanTile,19.0x1,可用,ok,,44
+Sapphire 风格化,S_矩形复眼,S_FlysEyeRect,19.0x1,可用,ok,,33
+Sapphire 风格化,S_笔刷,S_Brush,19.0x1,可用,ok,,43
+Sapphire 风格化,S_线性蒙雾,S_ZFogLinear,19.0x1,可用,ok,,7
+Sapphire 风格化,S_胶片损坏,S_FilmDamage,19.0x1,可用,ok,,109
+Sapphire 风格化,S_胶片效果,S_FilmEffect,19.0x1,可用,ok,,59
+Sapphire 风格化,S_胶片燃烧,S_FilmBurn,19.0x1,可用,ok,,190
+Sapphire 风格化,S_色彩漂移底片,S_ZebrafyColor,19.0x1,可用,ok,,36
+Sapphire 风格化,S_色彩转换,S_ColorFuse,19.0x1,可用（内容靠预设）,preset,内容参数：string,23
+Sapphire 风格化,S_色调分离,S_Posterize,19.0x1,可用,ok,,30
+Sapphire 风格化,S_负片,S_Solarize,19.0x1,可用,ok,,23
+Sapphire 风格化,S_超级增益,S_UltraGrain,19.0x1,可用,ok,,32
+Sapphire 风格化,S_边缘着色,S_EdgeColorize,19.0x1,可用,ok,,28
+Sapphire 风格化,S_边缘突出,S_EdgeDetect,19.0x1,可用,ok,,28
+Sapphire 风格化,S_随机噪点,S_GrainStatic,19.0x1,可用,ok,,21
+Sapphire 风格化,S_马赛克,S_Mosaic,19.0x1,可用,ok,,29
+Satori,Block Swap,block_swap,1.5,可用,ok,,20
+Satori,Curve Tracer,SatoriCurveTracer,1.0.1,可用,ok,,33
+Satori,Pixel Stretch,pixel_stretch,1.6,可用,ok,,21
+Satori,Pixelocybe,Pixelocybe,1.2,可用,ok,,15
+Satori,Split Blur,SatoriSplitBlur,1.5,可用,ok,,19
+Satori,Time Bend,SatoriTimeBend,1.0.1,可用,ok,,23
+Scopes (timeinpixels.com),False Color 3.72,False Color,3.8x1,可用,ok,,80
+Superluminal,Stardust,SC Stardust_effect_0_6,1.6x0,加上即崩溃,crash_add,,0
+Taronites,ZbornToy,TARONITE ZBTOY,1.1,可用,ok,,77
+TumoiYorozu Plug-ins,Fast Camera Lens Blur,TumoiYorozu FastCameraLensBlur,5.2.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+VFX Tools,Extendo,ADBE Extendo,0.2x0,可用,ok,默认参数下画面无变化，要调参数或换素材,8
+Video Copilot,Element,VIDEOCOPILOT 3DArray,2.2.1x144,要先指定输入,input,要先在它的界面里搭场景,1631
+Video Copilot,Heat Distortion,VIDEOCOPILOT HeatDistortion,1.0x31,可用,ok,,18
+Video Copilot,Optical Flares,VIDEOCOPILOT OpticalFlares,1.3,可用（内容靠预设）,preset,内容参数：选项,61
+Video Copilot,Saber,VIDEOCOPILOT LightSaber,1.0x40,可用,ok,,77
+Video Copilot,Sure Target,VIDEOCOPILOT SureTarget,2.0,要先指定输入,input,,233
+Video Copilot,Twitch,Videocopilot Twitch,1.1,可用,ok,,52
+Video Copilot,VC Color Vibrance,VIDEOCOPILOT VIBRANCE,1.0x7,可用,ok,,9
+Video Copilot,VC Orb,VIDEOCOPILOT Sphere,1.0x74,可用,ok,,60
+Video Copilot,VC Reflect,VIDEOCOPILOT VCReflect,1.0,可用,ok,默认参数下画面无变化，要调参数或换素材,12
+Vimager,Contrast Up,Vimager ContrastUp,1.2x1,疑似水印,wm_maybe,默认画面上有网格线或辅助线，可能是水印，也可能是参考线,8
+Vimager,ScaleUp,Vimager ScaleUp,1.4.4x11,可用,ok,默认参数下画面无变化，要调参数或换素材,7
+Vimager,SpeedX,Vimager SpeedX,1.1.4x6,可用,ok,默认参数下画面无变化，要调参数或换素材,5
+Vimager,StyleX,Vimager StyleX,1.0.2x4,要先指定输入,input,,9
+Vranos,Composite Brush,Vranos Composite Brush,1.6.9,可用,ok,默认参数下画面无变化，要调参数或换素材,22
+Vranos,Lockdown,Vranos Lockdown,3.1.7,渲染时崩溃,crash_render,,48
+Zaebects,Signal,ADBE Signal,1.2x0,可用,ok,,35
+Zaebects,Slit-scan,ADBE Slit-scan,2.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+aescripts + aeplugins,Paint & Stick,PaintAndStick,1.0x0,可用（内容靠预设）,preset,内容参数：Cache Messer Upper、Effect Data State、Paint Keyframes,44
+bfx,bfx Map Ramp,bfx Map Ramp,1.1.1,可用（内容靠预设）,preset,内容参数：渐变预览,151
+francois-tarlier,ft-Auto White Balance,FTTF AutoWhiteBalance,3.0x0,可用,ok,,3
+francois-tarlier,ft-Filmic Contrast,FTTF FilmicContrastPro,6.0x0,可用,ok,默认参数下画面无变化，要调参数或换素材,17
+francois-tarlier,ft-Lens Distortion,FTTF LensDistortion Pro,7.1x0,可用,ok,默认参数下画面无变化，要调参数或换素材,9
+francois-tarlier,ft-Technicolor,FTTF Technicolor,3.0x0,可用,ok,,8
+francois-tarlier,ft-Vignetting Pro,FTTF Vignetting Pro,3.0x0,可用,ok,,13
+iBelieveInSwordfish,UnMult,Mekajiki UnMult,1.2,可用,ok,,0
+irrealix,Dust Transition,irrealix Dust Transition,1.1.1,可用（内容靠预设）,preset,内容参数：Colorize Gradient、Colorize Ramp、Distortion Ramp、Opacity Ramp、Shine Shine Ramp,66
+irrealix,MosaicArt,irrealix MosaicArt,1.1.1,可用（内容靠预设）,preset,内容参数：Ramp、放大倍率渐变,158
+irrealix,Nebulosity,irrealix Nebulosity,1.2,可用（内容靠预设）,preset,内容参数：发射渐变、密度羽化渐变、快速星星渐变、星形径向 XZ 分布、星形线性 X 分布,159
+irrealix,Potok,irrealix Potok,1.1.1,可用（内容靠预设）,preset,内容参数：噪波渐变、线条渐变,70
+irrealix,Volna,irrealix Volna,2.4.8,要先指定输入,input,,161
+irrealix,freeGradient,irrealix freeGradient,1.0,要先指定输入,input,,22
+irrealix,loopFlow,irrealix loopFlow,1.3.1,可用（内容靠预设）,preset,内容参数：动画图层 1 通道渐变、动画图层 2 通道渐变、失真渐变、沿速度渐变的动画、蒙版 1 基点密度；默认参数下画面无变化，要调参数或换素材,55
+jawset,Turbulence2D,Turbulence2D,1.2.6,要先指定输入,input,,40
+minning.de Normality,Normality,ADBE Normality,3.0x1,要先指定输入,input,,112
+murasin's FX,m's Halftone,m's Halftone,1.5.3,可用,ok,,6
+proDAD,CmosFixr,proDAD Mercalli4 Unjello,1.1.1x1,可用,ok,默认参数下画面无变化，要调参数或换素材,6
+proDAD,Mercalli 4.0,proDAD Mercalli4 Stabilizer,1.1.1x1,要先指定输入,input,要先分析,26
+枪火+示波器,Bang,qp_Bang,1.0.3,疑似水印,wm_maybe,默认画面上有网格线或辅助线，可能是水印，也可能是参考线,11
+枪火+示波器,qp Grade Assistant 2,QP_GradeAssistant,2.0.3,可用,ok,,48

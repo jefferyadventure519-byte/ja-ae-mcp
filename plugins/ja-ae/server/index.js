@@ -8,8 +8,9 @@ const os = require("os");
 const cp = require("child_process");
 const png = require("./png");
 const fonts = require("./fonts");
+const fx = require("./fxtests");
 
-const VERSION = "0.2.0";
+const VERSION = "0.3.0";
 const ROOT = path.resolve(__dirname, "..");
 const RUNTIME = fs.readFileSync(path.join(ROOT, "runtime", "ae_runtime.jsx"), "utf8");
 const log = (...a) => process.stderr.write("[ja-ae] " + a.join(" ") + "\n");
@@ -124,7 +125,7 @@ const TOOLS = [
     inputSchema: { type: "object", properties: { launch: { type: "boolean" }, wait_seconds: { type: "number", description: "max wait for AE to become ready after launch (default 180)" } } },
     handler: async a => {
       let info = findAE(true);
-      const base = { server: "ja-ae " + VERSION, workDir: WORK, installed: info.installed, running: info.running };
+      const base = { server: "ja-ae " + VERSION, workDir: WORK, installed: info.installed, running: info.running, fxTests: fx.info() };
       if (!info.running.length) {
         if (!a.launch) return { ...base, aeRunning: false, note: "AE is not running. Ask the user to open it (or call again with launch:true)." };
         const exe = exeToUse(info); if (!exe) throw new Error("AE_NOT_FOUND");
@@ -162,7 +163,7 @@ const TOOLS = [
   },
   {
     name: "ae_check",
-    description: "Project health check: missing footage, effects whose plugin is not installed on this machine, expression errors, fonts used by text layers (and whether installed), unused footage, empty comps, queued renders. Optional comp limits layer checks to one comp.",
+    description: "Project health check: missing footage, effects whose plugin is not installed on this machine, third-party effects in use that had problems in our plugin test (effectIssues: watermark, crash, ...) or were never tested (untestedEffects), expression errors, fonts used by text layers (and whether installed), unused footage, empty comps, queued renders. Optional comp limits layer checks to one comp.",
     inputSchema: { type: "object", properties: { comp: {} } },
     handler: async a => {
       const r = (await runOp("check", a, { timeoutSec: 180 })).result;
@@ -170,15 +171,16 @@ const TOOLS = [
         const sys = new Set(systemFonts().map(f => f.postScriptName));
         for (const f of r.fontsUsed) if (f.installed === undefined) { f.installed = sys.has(f.font); f.checkedBy = "system font files (Adobe Fonts not visible)"; }
       }
-      return r;
+      return fx.annotateCheck(r);
     }
   },
   {
     name: "ae_discover",
-    description: "Discover what THIS machine's AE can use, live: effects (incl. third-party plugins; name, matchName, category; filter by query/category) | categories | fonts (PostScript names for text layers; AE 2022 falls back to scanning system font files) | render_templates (render settings + output module names, localized) | presets (.ffx animation presets) | scripts (installed .jsx/.jsxbin). Effect display names, categories and preset file names follow the AE UI language (e.g. Chinese AE: '淡入' not 'fade') — search in that language or by matchName.",
-    inputSchema: { type: "object", required: ["what"], properties: { what: { type: "string", enum: ["effects", "categories", "fonts", "render_templates", "presets", "scripts"] }, query: { type: "string" }, category: { type: "string" }, limit: { type: "number" } } },
+    description: "Discover what THIS machine's AE can use, live: effects (incl. third-party plugins; name, matchName, category; filter by query/category; third-party effects carry `test` = result of our plugin test: ok | preset | input | manual | wm (watermark) | wm_maybe | noadd | dialog | crash_add | crash_render | timeout | untested — see fxTests.legend; test:'issues' lists only the installed effects with known problems) | plugin_guide (how to use third-party plugins and their known traps — read it once before using them) | categories | fonts (PostScript names for text layers; AE 2022 falls back to scanning system font files) | render_templates (render settings + output module names, localized) | presets (.ffx animation presets) | scripts (installed .jsx/.jsxbin). Effect display names, categories and preset file names follow the AE UI language (e.g. Chinese AE: '淡入' not 'fade') — search in that language or by matchName.",
+    inputSchema: { type: "object", required: ["what"], properties: { what: { type: "string", enum: ["effects", "plugin_guide", "categories", "fonts", "render_templates", "presets", "scripts"] }, query: { type: "string" }, category: { type: "string" }, test: { type: "string", description: "effects only: keep effects with this test status, or 'issues' for every known problem" }, limit: { type: "number" } } },
     handler: async a => {
       const what = a.what, q = (a.query || "").toLowerCase(), lim = a.limit || 300;
+      if (what === "plugin_guide") return { what, fxTests: fx.info(), guide: fx.guide() };
       if (what === "presets" || what === "scripts") {
         const dirs = presetAndScriptDirs(exeToUse(findAE()))[what];
         const files = [];
@@ -192,7 +194,9 @@ const TOOLS = [
         const all = systemFonts().filter(f => !q || (f.family + " " + f.style + " " + f.postScriptName).toLowerCase().includes(q));
         return { what: "fonts", apiAvailable: false, source: "system font files (this AE has no font API; Adobe Fonts activations are not listed)", total: all.length, returned: Math.min(lim, all.length), fonts: all.slice(0, lim).map(f => ({ family: f.family, style: f.style, postScriptName: f.postScriptName })) };
       }
-      return (await runOp("discover", a, { timeoutSec: 60 })).result;
+      // 按测试结论过滤时要先拿全量，再在这边过滤和截断
+      const r = (await runOp("discover", what === "effects" && a.test ? { ...a, limit: 100000 } : a, { timeoutSec: 60 })).result;
+      return what === "effects" ? fx.annotateDiscover(r, a.test, lim) : r;
     }
   },
   {
@@ -209,13 +213,16 @@ const TOOLS = [
   },
   {
     name: "ae_apply",
-    description: "Apply an effect (built-in or any installed plugin, by matchName or display name) with optional params {paramNameOrMatchName: value | {keyframes:[...]} | {expression}}, and/or an animation preset (.ffx path from ae_discover what:'presets') to layers. Returns the applied effect's full parameter list so you can fine-tune it with ae_set. " + UNDO,
-    inputSchema: { type: "object", properties: { comp: {}, layer: {}, layers: {}, effect: { type: "string" }, name: { type: "string", description: "rename the applied effect" }, params: { type: "object" }, preset: { type: "string" } } },
-    handler: async a => (await runOp("apply", a, { undo: "AI: apply " + (a.effect || "preset"), timeoutSec: 120 })).result
+    description: "Apply an effect (built-in or any installed plugin, by matchName or display name) with optional params {paramNameOrMatchName: value | {keyframes:[...]} | {expression}}, and/or an animation preset (.ffx path from ae_discover what:'presets') to layers. Returns the applied effect's full parameter list so you can fine-tune it with ae_set, plus `test` (what our plugin test found for a third-party effect — read it). Effects known to crash AE, pop up a dialog or fail to load are refused with FX_KNOWN_ISSUE; force:true tries anyway (ask the user first and have them save the project). " + UNDO,
+    inputSchema: { type: "object", properties: { comp: {}, layer: {}, layers: {}, effect: { type: "string" }, name: { type: "string", description: "rename the applied effect" }, params: { type: "object" }, preset: { type: "string" }, force: { type: "boolean", description: "add the effect even though it is on the known-issue list" } } },
+    handler: async a => {
+      try { return fx.annotateApply((await runOp("apply", a.effect ? { ...a, __fx: fx.gateArgs() } : a, { undo: "AI: apply " + (a.effect || "preset"), timeoutSec: 120 })).result, !!a.force); }
+      catch (e) { throw fx.explain(e); }
+    }
   },
   {
     name: "ae_run_script",
-    description: "Run any ExtendScript in After Effects for anything the other tools don't cover (full AE scripting DOM). The code is a function body: use `return` to send back a value (AE objects are summarized), `log(...)` to collect messages, `args` for input data, and helpers on `JA`: JA.comp(ref), JA.layer(comp, ref), JA.layers(comp, refs), JA.prop(layerOrGroup, 'path'), JA.setValue(prop, value, time?), JA.applyKeys(prop, [{time,value,ease_in,ease_out,interpolation}], {straight_motion}), JA.setEase(prop, keyIndex, inInf, outInf), JA.color('#hex'), JA.describe(prop, {only_modified:false}, 0), JA.path(prop). ExtendScript is ES3: no let/const/arrow functions/JSON/Array.indexOf/forEach. Engine traps: unparenthesized nested ternaries (a?b:c?d:e) are mis-parsed — use if/else or parentheses; TextLayer/ShapeLayer are NOT `instanceof Layer` — test `layer.containingComp`; compare AE enums with == not ===. After addProperty() re-fetch sibling references (old ones become invalid). Text font needs a PostScript name. Errors return message + line. Blocked unless explicitly allowed: replacing/closing an unsaved project (force_discard_unsaved) and system.callSystem/File.execute (allow_system). " + UNDO,
+    description: "Run any ExtendScript in After Effects for anything the other tools don't cover (full AE scripting DOM). The code is a function body: use `return` to send back a value (AE objects are summarized), `log(...)` to collect messages, `args` for input data, and helpers on `JA`: JA.comp(ref), JA.layer(comp, ref), JA.layers(comp, refs), JA.prop(layerOrGroup, 'path'), JA.setValue(prop, value, time?), JA.applyKeys(prop, [{time,value,ease_in,ease_out,interpolation}], {straight_motion}), JA.setEase(prop, keyIndex, inInf, outInf), JA.color('#hex'), JA.describe(prop, {only_modified:false}, 0), JA.path(prop). ExtendScript is ES3: no let/const/arrow functions/JSON/Array.indexOf/forEach. Engine traps: unparenthesized nested ternaries (a?b:c?d:e) are mis-parsed — use if/else or parentheses; TextLayer/ShapeLayer are NOT `instanceof Layer` — test `layer.containingComp`; compare AE enums with == not ===. After addProperty() re-fetch sibling references (old ones become invalid). Text font needs a PostScript name. Errors return message + line. Do not add effects here that ae_apply refused (FX_KNOWN_ISSUE). Blocked unless explicitly allowed: replacing/closing an unsaved project (force_discard_unsaved) and system.callSystem/File.execute (allow_system). " + UNDO,
     inputSchema: { type: "object", required: ["code"], properties: { code: { type: "string" }, args: { type: "object" }, undo_label: { type: "string" }, timeout_seconds: { type: "number" }, depth: { type: "number", description: "return value summary depth (default 4)" }, force_discard_unsaved: { type: "boolean" }, allow_system: { type: "boolean" } } },
     handler: async a => {
       try { return (await runOp("run", a, { undo: "AI: " + (a.undo_label || "script"), timeoutSec: a.timeout_seconds || 120 })).result; }
@@ -267,7 +274,7 @@ const TOOLS = [
 function send(msg) { process.stdout.write(JSON.stringify(msg) + "\n"); }
 async function handle(msg) {
   const { id, method, params } = msg;
-  if (method === "initialize") return send({ jsonrpc: "2.0", id, result: { protocolVersion: (params && params.protocolVersion) || "2025-06-18", capabilities: { tools: { listChanged: false } }, serverInfo: { name: "ja-ae", version: VERSION }, instructions: "ja-ae controls the user's running Adobe After Effects (2022+, Windows). It offers capabilities only — no templates or fixed workflows: follow the user's own brief and style. Start with ae_status. Use ae_render_frames to look at your work before reporting. Never save, close or replace the user's project unless they asked; every change is one undo step." } });
+  if (method === "initialize") return send({ jsonrpc: "2.0", id, result: { protocolVersion: (params && params.protocolVersion) || "2025-06-18", capabilities: { tools: { listChanged: false } }, serverInfo: { name: "ja-ae", version: VERSION }, instructions: "ja-ae controls the user's running Adobe After Effects (2022+, Windows). It offers capabilities only — no templates or fixed workflows: follow the user's own brief and style. Start with ae_status. Use ae_render_frames to look at your work before reporting. Never save, close or replace the user's project unless they asked; every change is one undo step. Third-party plugins: ae_discover marks each effect with `test` (result of a one-machine plugin test: usable, needs input, watermark, crash, ...); prefer effects marked ok, never route around an FX_KNOWN_ISSUE refusal, read ae_discover what:'plugin_guide' once before using plugins, and before anything is delivered render a frame (ae_render_frames) of every third-party effect and run ae_check — a watermark or licence notice on the frame means the effect must not be used." } });
   if (method === "tools/list") return send({ jsonrpc: "2.0", id, result: { tools: TOOLS.map(t => ({ name: t.name, description: t.description, inputSchema: t.inputSchema })) } });
   if (method === "tools/call") {
     const tool = TOOLS.find(t => t.name === params.name);
